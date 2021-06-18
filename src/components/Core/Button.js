@@ -48,7 +48,7 @@ const ButtonStyled = styled.button`
 `;
 
 const Button = ({
-  variant = "primary",
+  variant = "success",
   color = "#fff",
   arrowRight = false,
   children,

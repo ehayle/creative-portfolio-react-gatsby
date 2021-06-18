@@ -10,7 +10,7 @@ const ListNav = styled.ul`
       line-height: 1.63;
       letter-spacing: 1.63px;
       &.active {
-        color: ${({ theme }) => theme.colors.primary}!important;
+        color: ${({ theme }) => theme.colors.ash}!important;
       }
     }
   }

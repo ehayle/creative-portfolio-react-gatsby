@@ -2,15 +2,15 @@ import { rgba } from "polished";
 import { breakpoints } from "./breakpoints";
 
 const defaultColors = {
-  primary: "#495fef",
-  secondary: "#f5f5f7",
+  primary: "#0053e1", //blue
+  secondary: "#fef335", //yellow (doing nothing)
   white: "#ffffff",
-  dark: "#161c2d",
-  ash: "#413e65",
+  dark: "#000000",
+  ash: "#b2beb5",
   black: "#000000",
   warning: "#fedc5a",
-  success: "#56b381",
-  info: "#482EC3",
+  success: "#ff4617", //red, homepage contact button
+  info: "#fef335", //yellow (doing nothing)
 };
 
 const colors = {
@@ -58,7 +58,7 @@ const colors = {
 };
 
 const theme = {
-  initialColorModeName: "light",
+  initialColorModeName: "dark",
   colors: colors,
   space: [0, 4, 8, 16, 32, 64, 128, 256, 512],
   breakpoints: [

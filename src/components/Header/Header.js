@@ -62,7 +62,7 @@ const Menu = styled.ul`
         padding-left: 18px !important;
         padding-right: 18px !important;
 
-        text-transform: lowercase;
+        text-transform: capitalize;
 
         &.dropdown-toggle:after {
           margin-left: 10px;
@@ -81,7 +81,7 @@ const Menu = styled.ul`
     }
     &.nav-item:hover > .nav-link,
     &.nav-item.active > .nav-link {
-      color: ${({ theme }) => theme.colors.primary} !important;
+      color: ${({ theme }) => theme.colors.ash} !important;
       &:after {
         transform: rotate(-90deg);
       }
@@ -124,7 +124,7 @@ const MenuDropdown = styled.ul`
     border: 1px solid #e5e5e5;
     border-radius: 0 0 10px 10px;
     display: block;
-    border-top: ${({ theme }) => `3px solid ${theme.colors.primary}`};
+    border-top: ${({ theme }) => `3px solid ${theme.colors.ash}`};
   }
   > .drop-menu-item {
     color: ${({ theme }) => theme.colors.dark};
@@ -143,7 +143,7 @@ const MenuDropdown = styled.ul`
       display: flex;
       align-items: center;
       font-weight: 700;
-      text-transform: lowercase;
+      text-transform: capitalize;
       &.dropdown-toggle::after {
         margin-left: 10px;
         position: relative;
@@ -161,7 +161,7 @@ const MenuDropdown = styled.ul`
     &:hover,
     &.active {
       > a {
-        color: ${({ theme }) => theme.colors.primary} !important;
+        color: ${({ theme }) => theme.colors.ash} !important;
         text-decoration: none;
         &::after {
           transform: rotate(180deg);

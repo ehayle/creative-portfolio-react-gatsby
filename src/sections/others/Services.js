@@ -1,116 +1,81 @@
 import React from "react";
-import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
+import styled from "styled-components";
+import { Section, Title, Text } from "../../components/Core";
 
-import { Section, Title, Text, Span } from "../../components/Core";
-import gotohayle from "../../assets/image/png/gotohayle.png";
+import Contact from "../landing1/Contact";
 
-const LinkSocial = styled.a`
-  color: ${({ theme }) => theme.colors.light} !important;
-  text-transform: uppercase;
-  font-weight: bold;
-  font-size: 13px;
-  letter-spacing: 1.63px;
-  transition: 0.4s;
-  &:hover {
-    color: ${({ theme }) => theme.colors.light} !important;
-    transform: translateY(-5px);
-  }
-`;
+
 
 const Services = ({ hero = true, bg = "dark", ...rest }) => {
   return (
     <>
-      <Section hero={hero} bg={bg} {...rest}>
-        <Container>
-          <Row className="align-items-center">
-            <Col lg="6">
-              <div>
-                <img src={gotohayle} alt="folio" className="img-fluid" />
-              </div>
-            </Col>
-            <Col lg="6">
-              <div className="pl-lg-4 pt-5 pt-lg-0">
-                <Title color="light" variant="secSm">
-                HELLO EVERYONE
+      <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              Services
+            </Title>
+            <Row>
+            <Col lg="6" className="mb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  01. Branding
                 </Title>
-                <Text
-                  color="light"
-                  className="mt-3 mt-lg-5"
-                  css={`
-                    line-height: 1.5;
-                  `}
-                >
-                  I am so pleased that you have stumble across my page. My name is by Eric Hayle. I am a multidisciplinary graphic designer with over five years of freelance experience.
-
+                <Text variant="p">
+                  <i><b>"Strong branding empowers your business and impacts critical areas such as trust, credibility and customer loyalty. “</b></i>
+                <br />
+                <br />
+                  My goal with every brand is to create lasting results that have superior growth potential. To achieve this goal our conversations are critical in order to better understand your needs and expectations.
+                <br />
+                <br />
+                  Whether you are launching a new business, rebranding or growing an existing brand, I offers you the ability to enhance your impact.
+                <br />
+                <br />
+                <b>#BrandIdentity #Logos #Typography #ColorPallet #BusinessCards #Stationary</b>
                 </Text>
-                <Text color="light" className="mt-4">
-                  I help organizations design, shape and amplify their brand, product and service. Whether you're looking to create or change your image or communication strategy, I am  here to serve and distinguish your brand.
-
+              </Col>
+              <Col lg="6" className="mb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  02. Web Design
+                </Title>
+                <Text variant="p">
+                  Everyday there is an increase in online users surfing the internet looking for products and services. Your website is the backbone for your business and could be the first touchpoint for a potential new customer or client.
+                <br />
+                <br />
+                  By choosing to have a custom designed website you will have an online presence that not only caters to your brands visual identity, but also has the optimized performance that will distinguish your brand from the crowd and increase your chances to capture your audience.
+                <br />
+                <br />
+                <b>#CustomWebsiteTemplate #ResponsiveDesign #MobileFriendly #CapturesYourAudience</b>
                 </Text>
-                <Text color="light" className="mt-4">
-                  I firmly believe that the best ideas come from direct communication with clients.
-
+              </Col>
+              <Col lg="6" className="mb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  03. Marketing
+                </Title>
+                <Text variant="p">
+                  There has been an explosion of digital medias over the recent decade. People are now discovering brands and formulating opinions across multiple media platforms. With such a vast variety of broadcasting sources available, I create platform specific marketing material and consider every touchpoint for your targeted audience.
+                <br />
+                <br />
+                <b>#Brochures #eBrochures #FlyerDesign #MagazineAdDesign #SocialMedia #MotionDesign #CampaignCreation #Photoshop</b>
                 </Text>
-                <div className="mt-4">
-                  <Text color="light">Email me at</Text>
-
-                  <Text variant="p">
-                    <a
-                      href="mailto:gotohayle@gmail.com"
-                      className="font-weight-bold"
-                    >
-                      <Span color="light">gotohayle@gmail.com</Span>
-                    </a>
-                  </Text>
-                </div>
-                <div className="mt-5">
-                  <img src={gotohayle} alt="sign" className="img-fluid" />
-                </div>
-                <Text color="light" className="mt-3 font-weight-bold">
-                  Eric Hayle
+              </Col>
+              <Col lg="6" className="mb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  04. Web Development
+                </Title>
+                <Text variant="p">
+                  Why is it important to choose a trusted developer?
+                <br />
+                <br />
+                  <i><b>“A great website can be an engine of business growth. A poor site can inflict damage on your brand.”</b></i>
+                <br />
+                <br />
+                <b>#DevelopmentConsulting #TechnicalDirection #FrontEndDevelopment #Craft-CMS-Solutions</b>
                 </Text>
-                <Text color="light" variant="small">
-                  Owner Operator of GoToHayle
-                </Text>
-                <div className="mt-5 d-flex">
-                  <LinkSocial
-                    href="https://www.dribbble.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Dribble
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className=" mr-3"
-                  >
-                    Twitter
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Facebook
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-weight-bold"
-                  >
-                    Instagram
-                  </LinkSocial>
-                </div>
-              </div>
-            </Col>
+              </Col>
           </Row>
         </Container>
+
+        <Contact />
       </Section>
     </>
   );

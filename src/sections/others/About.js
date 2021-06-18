@@ -3,7 +3,10 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Span } from "../../components/Core";
+import face from "../../assets/face.jpg";
 import gotohayle from "../../assets/image/png/gotohayle.png";
+
+import Contact from "../landing1/Contact";
 
 const LinkSocial = styled.a`
   color: ${({ theme }) => theme.colors.light} !important;
@@ -26,7 +29,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
           <Row className="align-items-center">
             <Col lg="6">
               <div>
-                <img src={gotohayle} alt="folio" className="img-fluid" />
+                <img src={face} alt="folio" className="img-fluid" />
               </div>
             </Col>
             <Col lg="6">
@@ -74,43 +77,37 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                   Owner Operator of GoToHayle
                 </Text>
                 <div className="mt-5 d-flex">
-                  <LinkSocial
-                    href="https://www.dribbble.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Dribble
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.twitter.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className=" mr-3"
-                  >
-                    Twitter
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.facebook.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="mr-3"
-                  >
-                    Facebook
-                  </LinkSocial>
-                  <LinkSocial
-                    href="https://www.instagram.com"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="font-weight-bold"
-                  >
-                    Instagram
-                  </LinkSocial>
-                </div>
+                    <LinkSocial
+                      href="https://www.behance.net/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mr-3"
+                    >
+                      Behance
+                    </LinkSocial>
+                    <LinkSocial
+                      href="https://www.instagram.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" mr-3"
+                    >
+                      Instagram
+                    </LinkSocial>
+                    <LinkSocial
+                      href="https://www.linkedin.com/in/eric-hayle-8515b7205/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="mr-3"
+                    >
+                      LinkedIn
+                    </LinkSocial>
+
+                  </div>
               </div>
             </Col>
           </Row>
         </Container>
+        <Contact />
       </Section>
     </>
   );

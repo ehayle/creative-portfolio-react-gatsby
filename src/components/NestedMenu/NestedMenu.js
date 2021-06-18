@@ -10,23 +10,23 @@ const NestedMenuContainer = styled.div`
     color: ${({ theme }) => theme.colors.dark} !important;
     transition: all 0.3s ease-out;
     font-weight: 700;
-    text-transform: lowercase;
+    text-transform: capitalize;
 
     &:hover,
     &:active {
-      color: ${({ theme }) => theme.colors.primary};
+      color: ${({ theme }) => theme.colors.ash};
       text-decoration: none;
     }
   }
 
   .list-group-item {
     font-weight: 700;
-    text-transform: lowercase;
+    text-transform: capitalize;
     color: ${({ theme }) => theme.colors.dark};
     &:hover,
     &:active,
     &.active {
-      color: ${({ theme }) => theme.colors.primary};
+      color: ${({ theme }) => theme.colors.ash};
       text-decoration: none;
       background-color: transparent;
       border-bottom: 1px solid rgba(22, 28, 45, 0.125);
