@@ -1,16 +1,35 @@
 import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import styled from "styled-components";
 
 import GlobalContext from "../../context/GlobalContext";
 import { Section, Title, ButtonIcon } from "../../components/Core";
 import Availability from "../../components/Availability";
+import bgFooter from "../../assets/image/png/background.png";
 
-const Hero = () => {
+const SectionStyled = styled(Section)`
+  &.pattern::before {
+    position: absolute;
+    content: "";
+    bottom: -250px;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    background: url(${bgFooter}) bottom center no-repeat;
+    background-size: cover;
+    z-index: -1000;
+  }
+`;
+
+
+
+
+const Hero = ({ pattern = true }) => {
   const gContext = useContext(GlobalContext);
 
   return (
     <>
-      <Section>
+      <SectionStyled className={`position-relative ${pattern ? "pattern" : ""}`}>
         <Container>
           <Row className="text-center justify-content-center">
             <Col lg="10" xl="7">
@@ -31,7 +50,7 @@ const Hero = () => {
             </Col>
           </Row>
         </Container>
-      </Section>
+      </SectionStyled>
     </>
   );
 };

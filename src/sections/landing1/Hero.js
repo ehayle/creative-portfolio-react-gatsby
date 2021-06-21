@@ -5,14 +5,18 @@ import { Link } from "react-scroll";
 
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 
-import { device } from "../../utils";
-import gthDrip from "../../assets/image/png/gth_drip.png";
+//import { device } from "../../utils";
+import gthDrip from "../../assets/image/png/graphic.png";
+
 
 const ImgRight = styled.img`
   max-width: 100%;
 `;
 
-const Hero = () => {
+
+
+
+const Hero = ({ pattern = true }) => {
   return (
     <>
       {/* <!-- Hero Area --> */}
@@ -31,7 +35,7 @@ const Hero = () => {
                   ILLUSTRATOR, GRAPHIC DESIGNER, OUTDOOR ENTHUSIAST
                 </Text>
                 <Title variant="hero">
-                  I design digital crafts for clients.
+                  I design digital crafts.
                 </Title>
 
                 <Box mt="52px">
@@ -54,6 +58,10 @@ const Hero = () => {
                 </div>
               </div>
             </Col>
+     
+           
+  
+           
           </Row>
         </Container>
       </Section>

@@ -3,8 +3,7 @@ import styled from "styled-components";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Title, Text, Span } from "../../components/Core";
-import face from "../../assets/face.jpg";
-import gotohayle from "../../assets/image/png/gotohayle.png";
+import face from "../../assets/image/png/face.png";
 
 import Contact from "../landing1/Contact";
 
@@ -44,7 +43,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  I am so pleased that you have stumble across my page. My name is by Eric Hayle. I am a multidisciplinary graphic designer with over five years of freelance experience.
+                  My name is Eric Hayle. I am a multidisciplinary graphic designer with over five years of freelance experience.
 
                 </Text>
                 <Text color="light" className="mt-4">
@@ -66,9 +65,6 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                       <Span color="light">gotohayle@gmail.com</Span>
                     </a>
                   </Text>
-                </div>
-                <div className="mt-5">
-                  <img src={gotohayle} alt="sign" className="img-fluid" />
                 </div>
                 <Text color="light" className="mt-3 font-weight-bold">
                   Eric Hayle

@@ -7,7 +7,7 @@ const Footer = ({ isDark = true }) => {
     <>
       {/* <!-- Footer section --> */}
       <Box
-        bg="bg"
+        // bg="bg"
         pt={[0, null, null, "3.75rem"]}
         pb="3.75rem"
         css={`

@@ -9,7 +9,7 @@ const defaultColors = {
   ash: "#b2beb5",
   black: "#000000",
   warning: "#fedc5a",
-  success: "#ff4617", //red, homepage contact button
+  success: "#0053e1", //blue, homepage contact button
   info: "#fef335", //yellow (doing nothing)
 };
 
