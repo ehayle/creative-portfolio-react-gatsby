@@ -29,9 +29,9 @@ const WorkSingleGTH = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING yoyoyo</Text>
+                <Text variant="tag">MARKETING, STICKER DESIGN, CUSTOM GRAPHIC, POSTER DESIGN, LOGO</Text>
                 <Title variant="secSm" className="my-4">
-                  Adaptable but Identifiable Product for Kandinsky.{" "}
+                  Having some fun with GoToHayle{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -39,13 +39,9 @@ const WorkSingleGTH = () => {
                     max-width: 750px;
                   `}
                 >
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses. And by introducing these
-                  illustrative elements to the logomark, Strictly found it’s
-                  voice.
+                  Helping organizations design, shape and amplify their brand, product and service. 
+                  Whether you're looking to create or change your image or communication strategy, 
+                  I am here to serve and distinguish your brand.
                 </Text>
               </Col>
             </Row>
@@ -57,18 +53,20 @@ const WorkSingleGTH = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Shopper
+                  GoToHayle
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Apr 14, 2020
+                  2021
                 </Title>
               </Col>
+             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
             </Row>
           </Container>
         </div>
@@ -90,50 +88,20 @@ const WorkSingleGTH = () => {
               Key Findings
             </Title>
             <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   01. Basics
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                Just some custom graphics I created using Adobe illustrator and photoshop to the GoToHayle text.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   02. Goals
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  03. Problems
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  04. Solutions
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                  Marketing material (posters, flyers and stickers)
                 </Text>
               </Col>
             </Row>

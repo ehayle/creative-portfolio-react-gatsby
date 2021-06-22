@@ -29,9 +29,9 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING</Text>
+                <Text variant="tag">BRANDING, LOGO, LAYOUT DESIGN, MARKETING</Text>
                 <Title variant="secSm" className="my-4">
-                  Adaptable but Identifiable Product for Kandinsky.{" "}
+                  Topsy Turkey | Choice Chicken{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -39,13 +39,7 @@ const WorkSingle = () => {
                     max-width: 750px;
                   `}
                 >
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses. And by introducing these
-                  illustrative elements to the logomark, Strictly found it’s
-                  voice.
+                "We're Flippin' the Bird vs. the Traditional Way of Cooking Whole Turkeys and Chicken!"
                 </Text>
               </Col>
             </Row>
@@ -57,18 +51,20 @@ const WorkSingle = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Shopper
+                  Topsy Turkey
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Apr 14, 2020
+                  2019
                 </Title>
               </Col>
+              {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
             </Row>
           </Container>
         </div>
@@ -95,14 +91,10 @@ const WorkSingle = () => {
             <Row>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Basics
+                  01. Commission
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                Brand identity design consisting of a logo, stationary elements, business cards, flyer, brochure, package label, web design and website development.
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pl-lg-5">
@@ -110,9 +102,7 @@ const WorkSingle = () => {
                   02. Goals
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard.
+                A design that does not diverge from the cookware industry style, but also offers a fresh and progressive appearance. 
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pr-lg-5">
@@ -120,23 +110,15 @@ const WorkSingle = () => {
                   03. Problems
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                  Name change from "Topsy Turkey" to "Topsy Turkey Choice Chicken" after branding was completed.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   04. Solutions
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                  Client decliened rebranding. Instead "Choice Chicken" text was added to the current branding.
                 </Text>
               </Col>
             </Row>

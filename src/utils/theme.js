@@ -8,7 +8,7 @@ const defaultColors = {
   dark: "#000000",
   ash: "#b2beb5",
   black: "#000000",
-  warning: "#fedc5a",
+  warning: "#fef335",
   success: "#0053e1", //blue, homepage contact button
   info: "#fef335", //yellow (doing nothing)
 };

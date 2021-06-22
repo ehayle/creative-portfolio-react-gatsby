@@ -30,7 +30,7 @@ const WorkSingleFernweh = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING yoyoy</Text>
+                <Text variant="tag">BRANDING, WEB DESIGN, LAYOUT DESIGN, MARKETING, LOGO</Text>
                 <Title variant="secSm" className="my-4">
                   Fernweh Hat Co.{" "}
                 </Title>
@@ -40,13 +40,10 @@ const WorkSingleFernweh = () => {
                     max-width: 750px;
                   `}
                 >
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses. And by introducing these
-                  illustrative elements to the logomark, Strictly found it’s
-                  voice.
+                  Brand Identiy for Fernweh Hay Co. 
+                  <br />
+                  "A Wanderlust Experience"
+
                 </Text>
               </Col>
             </Row>
@@ -67,9 +64,11 @@ const WorkSingleFernweh = () => {
                   2021
                 </Title>
               </Col>
+            {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
             </Row>
           </Container>
         </div>
@@ -94,52 +93,16 @@ const WorkSingleFernweh = () => {
               Key Findings
             </Title>
             <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Basics
+                  Commission
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                Fernweh Hat Co. commissioned HAYLE&CO to create a branding package 
+                that would cater to their high end designer hats and accessories.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Goals
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  03. Problems
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  04. Solutions
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
+              
             </Row>
           </Container>
         </Section>

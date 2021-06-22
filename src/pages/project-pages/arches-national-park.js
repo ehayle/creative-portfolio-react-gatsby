@@ -30,7 +30,7 @@ const WorkSingleArches = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">Merch Design</Text>
+                <Text variant="tag">CUSTOM GRAPHIC, T-SHIRT DESIGN, POSTER DESIGN </Text>
                 <Title variant="secSm" className="my-4">
                   Arches National Park Merch.{" "}
                 </Title>
@@ -40,7 +40,7 @@ const WorkSingleArches = () => {
                     max-width: 750px;
                   `}
                 >
-                  I spent a good portion of summer 2020 dirtbag camping in Moab. The time I spent there was so profound I decided to make some merch to sell.
+                  I spent a good portion of summer 2020 camping in Moab, UT. The time I spent there was so profound I decided to make some merch to sell.
                 </Text>
               </Col>
             </Row>
@@ -52,7 +52,7 @@ const WorkSingleArches = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Myself
+                  GoToHayle
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -61,9 +61,12 @@ const WorkSingleArches = () => {
                   Summer 2020
                 </Title>
               </Col>
+             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
+
             </Row>
           </Container>
         </div>
@@ -91,7 +94,7 @@ const WorkSingleArches = () => {
             Synopsis
             </Title>
             <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   01. Basics
                 </Title>
@@ -99,7 +102,7 @@ const WorkSingleArches = () => {
                   Landscape photography that I turned into a minimal retro design.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   02. Goals
                 </Title>

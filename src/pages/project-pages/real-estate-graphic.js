@@ -28,7 +28,7 @@ const WorkSingleRealEstate = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">Layout Design</Text>
+                <Text variant="tag">LAYOUT DESIGN, BROCHURE DESIGN</Text>
                 <Title variant="secSm" className="my-4">
                   Palm Springs California Reality Brochure.{" "}
                 </Title>
@@ -80,7 +80,7 @@ const WorkSingleRealEstate = () => {
               Key Findings
             </Title>
             <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   01. Commission
                 </Title>
@@ -88,7 +88,7 @@ const WorkSingleRealEstate = () => {
                   Real Estate Brochure for private resident.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   02. Project Goal
                 </Title>

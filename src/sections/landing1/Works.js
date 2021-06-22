@@ -67,27 +67,40 @@ const Works = () => {
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "ux-design" ? "active" : null
+                    activeLink === "logo-design" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("ux-design");
+                    filterBy("logo-design");
                   }}
                 >
-                  Packaging Design
+                  Logo Design
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   className={`nav-link font-weight-bold text-uppercase ${
-                    activeLink === "photography" ? "active" : null
+                    activeLink === "layout-design" ? "active" : null
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("photography");
+                    filterBy("layout-design");
                   }}
                 >
                   Layout Design
+                </a>
+              </li>
+              <li className="nav-item">
+                <a
+                  className={`nav-link font-weight-bold text-uppercase ${
+                    activeLink === "custom-graphic" ? "active" : null
+                  }`}
+                  onClick={(e) => {
+                    e.preventDefault();
+                    filterBy("custom-graphic");
+                  }}
+                >
+                  Custom Graphic
                 </a>
               </li>
             </ListNav>

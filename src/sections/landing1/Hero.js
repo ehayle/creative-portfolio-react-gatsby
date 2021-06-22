@@ -32,7 +32,7 @@ const Hero = ({ pattern = true }) => {
                   color="heading"
                   mb="40px"
                 >
-                  ILLUSTRATOR, GRAPHIC DESIGNER, OUTDOOR ENTHUSIAST
+                  GRAPHIC DESIGNER, WEB DESIGNER, WEB DEVELOPER 
                 </Text>
                 <Title variant="hero">
                   I design digital crafts.

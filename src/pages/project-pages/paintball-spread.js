@@ -27,9 +27,9 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING</Text>
+                <Text variant="tag">LAYOUT DESIGN, MAGAZINE DESIGN, AD DESIGN</Text>
                 <Title variant="secSm" className="my-4">
-                  Adaptable but Identifiable Product for Kandinsky.{" "}
+                  Magazine Cover and Center Spread Design{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -37,13 +37,7 @@ const WorkSingle = () => {
                     max-width: 750px;
                   `}
                 >
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses. And by introducing these
-                  illustrative elements to the logomark, Strictly found it’s
-                  voice.
+                  "Real action paintball with the realest equipment"
                 </Text>
               </Col>
             </Row>
@@ -55,18 +49,20 @@ const WorkSingle = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Shopper
+                  RCP Equipment
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Apr 14, 2020
+                  2012
                 </Title>
               </Col>
+              {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
             </Row>
           </Container>
         </div>
@@ -83,55 +79,18 @@ const WorkSingle = () => {
         <Section className="pt-4 pb-0">
           <Container>
             <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
+              Synopsis
             </Title>
             <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Basics
+                  Commission
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                A cover design and two page center spread magazine layout showcasing the newest equipment from RAPA. Fall 2012 edition.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Goals
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  03. Problems
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  04. Solutions
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
+              
             </Row>
           </Container>
         </Section>

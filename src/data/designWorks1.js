@@ -21,7 +21,7 @@ export const designWorks1 = [
     brand: `PPE World`,
     slug: `ppe-world`,
     title: `Personal Protective Equipment World`,
-    categories: [`branding`],
+    categories: [`branding`, `logo-design`, `layout-design`],
     thumbnail: imgT1,
   link : "/project-pages/ppe-world"
 },
@@ -29,7 +29,7 @@ export const designWorks1 = [
     brand: `Arches Nat. Park`,
     slug: `arches-national-park`,
     title: `Arches National Park Merch.`,
-    categories: [`Illustration`],
+    categories: [`custom-graphic`, `branding`],
     thumbnail: imgT2,
   link : "/project-pages/arches-national-park"
 },
@@ -37,7 +37,7 @@ export const designWorks1 = [
     brand: `GoToHayle`,
     slug: `gotohayle`,
     title: `Go To Hayle - Digital Design Service`,
-    categories: [`marketing`, `branding`, `illustration`],
+    categories: [`custom-graphic`, `branding`],
     thumbnail: imgT3,
   link : "/project-pages/go-to-hayle"
 },
@@ -53,7 +53,7 @@ export const designWorks1 = [
     brand: `Fernweh`,
     slug: `Fernweh`,
     title: `Fernweh Hat Co.`,
-    categories: [`branding`, `photography`, `ux-design`, `marketing`, `layout-design`],
+    categories: [`branding`, `logo-design`,`layout-design`],
     thumbnail: imgT5,
   link : "/project-pages/fernweh"
 },
@@ -61,7 +61,7 @@ export const designWorks1 = [
     brand: `Kind Bakery`,
     slug: `kind-bakery`,
     title: `Guilt free treats!`,
-    categories: [`branding`, `packaging-design`],
+    categories: [`branding`, `logo-design`, `layout-design`],
     thumbnail: imgT6,
   link : "/project-pages/kind-bakery"
 },
@@ -69,7 +69,7 @@ export const designWorks1 = [
     brand: `VAM`,
     slug: `vam`,
     title: `Vitality Asset Management.`,
-    categories: [`branding`],
+    categories: [`branding`, `logo-design`, `layout-design`],
     thumbnail: imgT7,
   link : "/project-pages/vam"
 },
@@ -77,7 +77,7 @@ export const designWorks1 = [
     brand: `GreenFarms`,
     slug: `green-farms`,
     title: `Green Farms Natural Grocer`,
-    categories: [`branding`, `illustration`],
+    categories: [`branding`, `logo-design`, `layout-design`],
     thumbnail: imgT8,
   link : "/project-pages/green-farms"
 },
@@ -85,7 +85,7 @@ export const designWorks1 = [
     brand: `Berzzerk`,
     slug: `berzzerk`,
     title: `Electronic music DJ and music producer BERZZERK.`,
-    categories: [`branding`, `marketing`],
+    categories: [`branding`, `logo-design`],
     thumbnail: imgT9,
   link : "/project-pages/berzzerk"
 },
@@ -93,7 +93,7 @@ export const designWorks1 = [
     brand: `Frolic With Me.`,
     slug: `frolic-with-me`,
     title: `Frolic With Me. Travel Blogg`,
-    categories: [`marketing`, `ux-design`, `photography`, `branding`],
+    categories: [`branding`, `logo-design`, `layout-design`],
     thumbnail: imgT10,
   link : "/project-pages/frolic-with-me"
 },
@@ -101,7 +101,7 @@ export const designWorks1 = [
     brand: `Foxhole Fashion`,
     slug: `foxhole-fashion`,
     title: `Recycled, trendy clothin boutique.`,
-    categories: [`marketing`, `branding`],
+    categories: [`branding`, `logo-design`, `layout-design`],
     thumbnail: imgT11,
   link : "/project-pages/foxhole-fashion"
 },
@@ -109,7 +109,7 @@ export const designWorks1 = [
     brand: `Treasure`,
     slug: `treasure`,
     title: `Treasure, book jacket design.`,
-    categories: [`layout-design`, `branding`],
+    categories: [`layout-design`, `custom-graphic`],
     thumbnail: imgT12,
   link : "/project-pages/treasure"
 },
@@ -117,7 +117,7 @@ export const designWorks1 = [
     brand: `Ink`,
     slug: `ink`,
     title: `Magazine Cover and Center Spread Design.`,
-    categories: [`ux-design`],
+    categories: [`layout-design`],
     thumbnail: imgT13,
   link : "/project-pages/ink"
 },
@@ -125,7 +125,7 @@ export const designWorks1 = [
     brand: `Topsy Turkey`,
     slug: `topsy-turkey`,
     title: `Topsy Turkey Brand Identity.`,
-    categories: [ `branding`, `ux-design`, `marketing`, `layout-design`],
+    categories: [ `branding`, `logo-design`, `layout-design`],
     thumbnail: imgT14,
   link : "/project-pages/topsy-turkey"
 },
@@ -141,7 +141,7 @@ link : "/project-pages/paintball-spread"
   brand: `Zowee Products`,
   slug: `zowee-products`,
   title: `Zowee Products Marketing`,
-  categories: [ `layout-design`, `marketing`],
+  categories: [ `layout-design`],
   thumbnail: imgT16,
 link : "/project-pages/zowee-products"
 },
@@ -149,7 +149,7 @@ link : "/project-pages/zowee-products"
   brand: `MadMex`,
   slug: `madmex`,
   title: `MadMex Mexican Grill`,
-  categories: [ `branding`, `layout-design`, `marketing`],
+  categories: [ `branding`, `logo-design`, `layout-design`, `custom-graphic`],
   thumbnail: imgT17,
 link : "/project-pages/madmex"
 },

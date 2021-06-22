@@ -29,7 +29,7 @@ const WorkSinglePPE = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING</Text>
+                <Text variant="tag">BRANDING, LAYOUT DESIGN, LOGO</Text>
                 <Title variant="secSm" className="my-4">
                   Personal Protective Equipment World.{" "}
                 </Title>
@@ -39,7 +39,7 @@ const WorkSinglePPE = () => {
                     max-width: 750px;
                   `}
                 >
-                 Dan From Personal Protective Equipment World sought to do an entire corporate identity package. Consisting of the design of a logo, stationary elements, business card, flyer and brochure.
+                 Dan from Personal Protective Equipment World sought to do an entire corporate identity package. Consisting of the design of a logo, stationary elements, business card, flyer and brochure.
                 </Text>
               </Col>
             </Row>
@@ -60,9 +60,11 @@ const WorkSinglePPE = () => {
                   2021
                 </Title>
               </Col>
+             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
             </Row>
           </Container>
         </div>
@@ -101,7 +103,7 @@ const WorkSinglePPE = () => {
                   Successfully rebrand the comapny with a image that could adapt across many use cases.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pr-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   03. Problems
                 </Title>
@@ -109,7 +111,7 @@ const WorkSinglePPE = () => {
                   The client did not want to change the gloves holding the world element. 
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
                   04. Solutions
                 </Title>

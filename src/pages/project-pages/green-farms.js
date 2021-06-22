@@ -30,9 +30,9 @@ const WorkSingleGreenFarms = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING</Text>
+                <Text variant="tag">BRANDING, LAYOUT DESIGN, BANNER DESIGN, LOGO</Text>
                 <Title variant="secSm" className="my-4">
-                  Adaptable but Identifiable Product for Kandinsky.{" "}
+                  Adaptable but Identifiable Brand Identity for GreenFarms.{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -40,13 +40,7 @@ const WorkSingleGreenFarms = () => {
                     max-width: 750px;
                   `}
                 >
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses. And by introducing these
-                  illustrative elements to the logomark, Strictly found it’s
-                  voice.
+                  "Eat clean and green. We're outfitting the urban neighborhood with the most fresh and most green farm to table market place."
                 </Text>
               </Col>
             </Row>
@@ -58,18 +52,20 @@ const WorkSingleGreenFarms = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Shopper
+                  GFNG
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Apr 14, 2020
+                  Winter 2020
                 </Title>
               </Col>
+            {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
             </Row>
           </Container>
         </div>
@@ -92,52 +88,24 @@ const WorkSingleGreenFarms = () => {
               Key Findings
             </Title>
             <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Basics
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+              <Title variant="cardBig" className="mb-4">
+                  01. Statement 
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                Initially operating as a farm to table raw foods vendor for inner city neighborhoods. 
+                Green Farms Natural Grocer trusted me with upgrading their brands visual identity for scalability and longevity.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  02. Goals
+                  02. Commission 
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard.
+                My goal with the rebrand of GFNG was to take a farmers market vendor and scale it into a business that matches the potential and aesthetic of a large and trusted supermarket chain.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  03. Problems
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  04. Solutions
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
+              
             </Row>
           </Container>
         </Section>

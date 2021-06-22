@@ -34,9 +34,9 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING</Text>
+                <Text variant="tag">BRANDING, LOGO, WEB DESIGN, MARKETING, LAYOUT DESIGN</Text>
                 <Title variant="secSm" className="my-4">
-                  Adaptable but Identifiable Product for Kandinsky.{" "}
+                  Brand Identity and Web Design for Frolic With Me.{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -44,13 +44,7 @@ const WorkSingle = () => {
                     max-width: 750px;
                   `}
                 >
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses. And by introducing these
-                  illustrative elements to the logomark, Strictly found it’s
-                  voice.
+                  "Travel itineraries, hiking adventures, outdoor gear, and even some soulful stories of my time spent being a mountain woman."
                 </Text>
               </Col>
             </Row>
@@ -62,18 +56,20 @@ const WorkSingle = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Client</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Shopper
+                  Frolic With Me
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Apr 14, 2020
+                  Winter 2020
                 </Title>
               </Col>
+               {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
+             */} 
             </Row>
           </Container>
         </div>
@@ -100,50 +96,29 @@ const WorkSingle = () => {
             <Row>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Basics
+                  01. Statement
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                Ashley, the author, owner and operator of Frolic With Me trusted myself to actualize her freelance writing business by branding the visual identity and developing the Blog powered by Wordpress.
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  02. Goals
+                  02. Commission
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard.
+                  Brand identity with WordPress web design and development.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pr-lg-5">
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  03. Problems
+                  03. Project Goals
                 </Title>
                 <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
+                Produce a visual identity that caters to the bloggers personality, writing style and nature of the content.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  04. Solutions
-                </Title>
-                <Text variant="p">
-                  To satisfy our goal of creating a brand that could adapt
-                  across many use cases, we took the base form of their new logo
-                  and used it as an artboard. As long as the structural outline
-                  of the mark stayed consistent their brand was allowed to flex
-                  and adapt to specific uses.
-                </Text>
-              </Col>
+              
             </Row>
           </Container>
         </Section>
