@@ -1,3 +1,4 @@
+import imgT18 from "../assets/image/projects/SoulFreq/SF_moc_1_1080x1080.jpg";
 import imgT1 from "../assets/image/projects/PPE World/logo_1440.jpg";
 import imgT2 from "../assets/image/projects/Arches/arches_shirt-2.jpg";
 import imgT3 from "../assets/image/projects/GTH/GoToHayle_1-1080.jpg";
@@ -17,6 +18,14 @@ import imgT16 from "../assets/image/projects/Zowee/ExhibitionStand-1400x900.jpg"
 import imgT17 from "../assets/image/projects/MadMex/MadMexLogo-1080x1080.jpg";
 
 export const designWorks1 = [
+  {
+    brand: `SOUL FREQ`,
+    slug: `soul-freq`,
+    title: `Personal Protective Equipment World`,
+    categories: [`layout-design`, `branding`, `logo-design`, `custom-graphic`],
+    thumbnail: imgT18,
+  link : "/project-pages/soul-freq"
+},
   {
     brand: `PPE World`,
     slug: `ppe-world`,

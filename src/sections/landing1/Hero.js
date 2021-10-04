@@ -6,7 +6,7 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 //import { device } from "../../utils";
-import gthDrip from "../../assets/image/png/graphic.png";
+import gthDrip from "../../assets/image/png/Ggraphic.png";
 
 
 const ImgRight = styled.img`
@@ -19,7 +19,7 @@ const ImgRight = styled.img`
 const Hero = ({ pattern = true }) => {
   return (
     <>
-      {/* <!-- Hero Area --> */}
+      {/* <!-- Hero Area --> 
       <Section hero className="position-relative">
         <Container>
           <Row className="align-items-center">
@@ -51,6 +51,7 @@ const Hero = ({ pattern = true }) => {
                 </Box>
               </Box>
             </Col>
+            
             <Col lg="5" md="8" sm="9">
               <div className="text-center text-lg-right position-relative">
                 <div className="img-main">
@@ -65,6 +66,7 @@ const Hero = ({ pattern = true }) => {
           </Row>
         </Container>
       </Section>
+      */}
     </>
   );
 };
