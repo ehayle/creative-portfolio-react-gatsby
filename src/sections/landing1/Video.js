@@ -1,5 +1,5 @@
 import React from 'react';
-import GTH from '../../assets/video/gotohayle_new.mp4'
+import GTH from '../../assets/video/GoToHayle_1920.mp4'
 
 const videoStyle = {
    // border: '2px solid red',
