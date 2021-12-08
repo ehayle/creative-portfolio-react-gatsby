@@ -40,7 +40,7 @@ const WorkSingleArches = () => {
                     max-width: 750px;
                   `}
                 >
-                  I spent a good portion of summer 2020 camping in Moab, UT. The time I spent there was so profound I decided to make some merch to sell.
+                  
                 </Text>
               </Col>
             </Row>
@@ -59,6 +59,12 @@ const WorkSingleArches = () => {
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
                   Summer 2020
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator, Silkscreen, Lithographic
                 </Title>
               </Col>
              {/*
@@ -96,18 +102,18 @@ const WorkSingleArches = () => {
             <Row>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Basics
+                  01. Basics 
                 </Title>
                 <Text variant="p">
-                  Landscape photography that I turned into a minimal retro design.
+                  Inspired by a summer in Moab, Utah. Landscape photography turned minimal lithographic print and sickscreen print.
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  02. Goals
+                  02. Deliverables
                 </Title>
                 <Text variant="p">
-                  Find inspiration in through nature.
+                Sketches, Digital Graphic Assets, Logo Design, T-Shirt Design, Poster Design, Print Ready Documents.
                 </Text>
               </Col>
 

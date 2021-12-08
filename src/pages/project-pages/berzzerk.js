@@ -60,6 +60,12 @@ const WorkSingle = () => {
                   winter 2020
                 </Title>
               </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator, InDesign
+                </Title>
+              </Col>
                {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -86,15 +92,23 @@ const WorkSingle = () => {
         <Section className="pt-4 pb-0">
           <Container>
             <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
+              Mandate
             </Title>
             <Row>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Commission
+                  Commission
                 </Title>
                 <Text variant="p">
                   Logo design and custom artwork for a new album release that expresses the artists music genre and style.
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Deliverables
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
                 </Text>
               </Col>
               

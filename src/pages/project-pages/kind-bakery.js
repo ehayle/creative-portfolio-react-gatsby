@@ -68,6 +68,12 @@ const WorkSingleKindBakery = () => {
                   2021
                 </Title>
               </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator, InDesign, HTML, CSS, React.js, Python, Heroku
+                </Title>
+              </Col>
             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -105,25 +111,15 @@ const WorkSingleKindBakery = () => {
                   01. Commission
                 </Title>
                 <Text variant="p">
-                KIND Bakery trusted me to brand their business to have lasting results and above all industry growth.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Project Goal
-                </Title>
-                <Text variant="p">
-                Develop a branding package that speaks loudly and creates a youthful energy. 
+                KIND Bakery trusted me to brand their business to have lasting results and above all industry growth. Develop a branding package that speaks loudly and creates a youthful energy. 
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  03. Forward Thinking
+              <Title variant="cardBig" className="mb-4">
+                 Deliverables
                 </Title>
                 <Text variant="p">
-                Forward thinking on the business was scalability. 
-                A must for the brand was a design that has the potential 
-                to attract attention on a shelf with competing brands.
+                Market research, competitive and comparative analysis, sketches, digital Assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
                 </Text>
               </Col>
             </Row>

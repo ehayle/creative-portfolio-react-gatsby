@@ -64,6 +64,12 @@ const WorkSingleFernweh = () => {
                   2021
                 </Title>
               </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator, InDesign, HTML, CSS, React.js, Python, Heroku
+                </Title>
+              </Col>
             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -90,7 +96,7 @@ const WorkSingleFernweh = () => {
         <Section className="pt-4 pb-0">
           <Container>
             <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
+              Mandate
             </Title>
             <Row>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
@@ -98,11 +104,17 @@ const WorkSingleFernweh = () => {
                   Commission
                 </Title>
                 <Text variant="p">
-                Fernweh Hat Co. commissioned HAYLE&CO to create a branding package 
-                that would cater to their high end designer hats and accessories.
+                Fernweh Hat Co., a luxury Hat, and Accessories startup commissioned me for Branding, Identity Design, and UI Design and Development.
                 </Text>
               </Col>
-              
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+              <Title variant="cardBig" className="mb-4">
+                 Deliverables
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, sketches, digital Assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
+                </Text>
+              </Col>
             </Row>
           </Container>
         </Section>

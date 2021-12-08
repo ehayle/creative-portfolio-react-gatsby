@@ -39,7 +39,7 @@ const WorkSinglePPE = () => {
                     max-width: 750px;
                   `}
                 >
-                 Dan from Personal Protective Equipment World sought to do an entire corporate identity package. Consisting of the design of a logo, stationary elements, business card, flyer and brochure.
+                
                 </Text>
               </Col>
             </Row>
@@ -58,6 +58,12 @@ const WorkSinglePPE = () => {
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
                   2021
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator
                 </Title>
               </Col>
              {/*
@@ -84,39 +90,39 @@ const WorkSinglePPE = () => {
         <Section className="pt-4 pb-0">
           <Container>
             <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
+              Commission
             </Title>
             <Row>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                Commission
+                Deliverables
                 </Title>
                 <Text variant="p">
-                  Logo and stationary design.
+                Market research, competitive and comparative analysis, sketches, logo design, stationary design, and  Print Ready Documents.
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  02. Goals
+                  
                 </Title>
                 <Text variant="p">
-                  Successfully rebrand the comapny with a image that could adapt across many use cases.
+                  
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  03. Problems
+                 
                 </Title>
                 <Text variant="p">
-                  The client did not want to change the gloves holding the world element. 
+                   
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  04. Solutions
+                  
                 </Title>
                 <Text variant="p">
-                   To give the logo a distinguish corporate appearance, I focused on the typography.
+                   
                 </Text>
               </Col>
             </Row>

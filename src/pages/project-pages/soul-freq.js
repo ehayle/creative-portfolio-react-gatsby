@@ -40,7 +40,7 @@ const WorkSingleSoul = () => {
                     max-width: 750px;
                   `}
                 >
-                  SOUL FREQ (Soul Fequency).
+                  
                 </Text>
               </Col>
             </Row>
@@ -50,15 +50,21 @@ const WorkSingleSoul = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  SOUL FREQ
+                  Graphic Designer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
                   2021
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator
                 </Title>
               </Col>
              {/*
@@ -68,6 +74,7 @@ const WorkSingleSoul = () => {
              */} 
 
             </Row>
+
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -96,10 +103,10 @@ const WorkSingleSoul = () => {
             <Row>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  {/* Commission */}
+                Deliverables
                 </Title>
                 <Text variant="p">
-                  Logo Design, Package Design, and Labeling for aromatherap, and fragrance bottles.
+                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
                 </Text>
               </Col>
             </Row>

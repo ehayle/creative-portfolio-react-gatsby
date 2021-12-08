@@ -61,6 +61,12 @@ const WorkSingleVam = () => {
                   Winter 2021
                 </Title>
               </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator, InDesign
+                </Title>
+              </Col>
             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -95,21 +101,13 @@ const WorkSingleVam = () => {
             <Row>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Commission
+                Deliverables
                 </Title>
                 <Text variant="p">
-                Brand identity package with a progressive image.
+                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Project Goals
-                </Title>
-                <Text variant="p">
-                Aim for a design that the public can trust. 
-                A design that does not diverge from the industry sector, but also offers a fresh and progressive appearance. 
-                </Text>
-              </Col>
+        
 
             </Row>
           </Container>

@@ -31,7 +31,7 @@ const WorkSingleGTH = () => {
               <Col lg="8">
                 <Text variant="tag">MARKETING, STICKER DESIGN, CUSTOM GRAPHIC, POSTER DESIGN, LOGO</Text>
                 <Title variant="secSm" className="my-4">
-                  Having some fun with GoToHayle{" "}
+                  Some fun with GoToHayle{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -60,6 +60,12 @@ const WorkSingleGTH = () => {
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
                   2021
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator
                 </Title>
               </Col>
              {/*
@@ -93,15 +99,15 @@ const WorkSingleGTH = () => {
                   01. Basics
                 </Title>
                 <Text variant="p">
-                Just some custom graphics I created using Adobe illustrator and photoshop to the GoToHayle text.
+                Typographic styling effects for GoToHayle. 
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  02. Goals
+                  02. Deliverables
                 </Title>
                 <Text variant="p">
-                  Marketing material (posters, flyers and stickers)
+                  Sketches, Digital Graphic Assets, Logo Design, Poster Design, Print Ready Documents.
                 </Text>
               </Col>
             </Row>

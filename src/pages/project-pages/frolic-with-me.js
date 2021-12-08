@@ -34,7 +34,7 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING, LOGO, WEB DESIGN, MARKETING, LAYOUT DESIGN</Text>
+                <Text variant="tag">BRANDING, LOGO, UI DESIGN, DEVELOPMENT, GRAPHIC MARKETING ASSETS, LAYOUT DESIGN</Text>
                 <Title variant="secSm" className="my-4">
                   Brand Identity and Web Design for Frolic With Me.{" "}
                 </Title>
@@ -63,6 +63,12 @@ const WorkSingle = () => {
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
                   Winter 2020
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator, InDesign, HTML, CSS, PHP, Javascript, WordPress
                 </Title>
               </Col>
                {/*
@@ -96,26 +102,19 @@ const WorkSingle = () => {
             <Row>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Statement
+                  Commission
                 </Title>
                 <Text variant="p">
-                Ashley, the author, owner and operator of Frolic With Me trusted myself to actualize her freelance writing business by branding the visual identity and developing the Blog powered by Wordpress.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Commission
-                </Title>
-                <Text variant="p">
-                  Brand identity with WordPress web design and development.
+                Ashley, the author, owner, and operator of Frolic With Me trusted me to actualize her freelance writing business by branding the visual identity and developing the Blog powered by WordPress. Brand identity with WordPress UI design and development.
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  03. Project Goals
+                  Deliverables
                 </Title>
                 <Text variant="p">
                 Produce a visual identity that caters to the bloggers personality, writing style and nature of the content.
+                Market research, competitive and comparative analysis, sketches, digital Assets, print assets, typography, layout design, brochure design, print ready documents.
                 </Text>
               </Col>
               

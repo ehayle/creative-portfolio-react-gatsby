@@ -32,7 +32,7 @@ const WorkSingleGreenFarms = () => {
               <Col lg="8">
                 <Text variant="tag">BRANDING, LAYOUT DESIGN, BANNER DESIGN, LOGO</Text>
                 <Title variant="secSm" className="my-4">
-                  Adaptable but Identifiable Brand Identity for GreenFarms.{" "}
+                  Brand Identity for GreenFarms{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -61,6 +61,12 @@ const WorkSingleGreenFarms = () => {
                   Winter 2020
                 </Title>
               </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Photoshop, Illustrator, InDesign
+                </Title>
+              </Col>
             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -85,26 +91,18 @@ const WorkSingleGreenFarms = () => {
         <Section className="pt-4 pb-0">
           <Container>
             <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
+              Mandate
             </Title>
             <Row>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
               <Title variant="cardBig" className="mb-4">
-                  01. Statement 
+              Deliverables 
                 </Title>
                 <Text variant="p">
-                Initially operating as a farm to table raw foods vendor for inner city neighborhoods. 
-                Green Farms Natural Grocer trusted me with upgrading their brands visual identity for scalability and longevity.
+                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
                 </Text>
               </Col>
-              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Commission 
-                </Title>
-                <Text variant="p">
-                My goal with the rebrand of GFNG was to take a farmers market vendor and scale it into a business that matches the potential and aesthetic of a large and trusted supermarket chain.
-                </Text>
-              </Col>
+         
               
             </Row>
           </Container>
