@@ -116,14 +116,6 @@ const Layout = ({ children, pageContext }) => {
         <GlobalStyle />
         <Helmet>
           <title>GoToHayle - Digital Design Service , Denver Colorado</title>
-          <meta property="og:title" content="__OG_TITLE__" />
-          <meta property="og:type" content="article" />
-          <meta property="og:image" content="__OG_IMAGE__" />
-          <meta property="og:url" content="__OG_URL__" />
-          <meta name="twitter:card" content="" />
-          <meta property="og:description" content="__OG_DESCRIPTION__" />
-          <meta property="og:site_name" content="__OG_TITLE__" />
-          <meta name="twitter:image:alt" content="__OG_IMAGE__" />
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
@@ -151,14 +143,6 @@ const Layout = ({ children, pageContext }) => {
         <GlobalStyle />
         <Helmet>
           <title>GoToHayle - Digital Design Service , Denver Colorado</title>
-          <meta property="og:title" content="__OG_TITLE__" />
-          <meta property="og:type" content="article" />
-          <meta property="og:image" content="__OG_IMAGE__" />
-          <meta property="og:url" content="__OG_URL__" />
-          <meta name="twitter:card" content="" />
-          <meta property="og:description" content="__OG_DESCRIPTION__" />
-          <meta property="og:site_name" content="__OG_TITLE__" />
-          <meta name="twitter:image:alt" content="__OG_IMAGE__" />
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
         <Loader id="loading" className={visibleLoader ? "" : "inActive"}>
