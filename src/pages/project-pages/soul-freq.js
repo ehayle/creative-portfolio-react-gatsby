@@ -30,7 +30,7 @@ const WorkSingleSoul = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING, LOGO DESIGN, PACKAGE DESIGN</Text>
+                <Text variant="tag">BRAND IDENTITY, LOGO DESIGN, LABEL DESIGN, GRAPHIC ILLUSTRATION</Text>
                 <Title variant="secSm" className="my-4">
                   SOUL FREQ{" "}
                 </Title>

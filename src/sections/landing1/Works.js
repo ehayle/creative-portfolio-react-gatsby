@@ -58,10 +58,10 @@ const Works = () => {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("branding");
+                    filterBy("brand-identity");
                   }}
                 >
-                  Branding
+                  Brand Identity
                 </a>
               </li>
               <li className="nav-item">
@@ -71,10 +71,10 @@ const Works = () => {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("logo-design");
+                    filterBy("marketing-advertising");
                   }}
                 >
-                  Logo Design
+                  Marketing and Advertising
                 </a>
               </li>
               <li className="nav-item">
@@ -84,10 +84,10 @@ const Works = () => {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("layout-design");
+                    filterBy("web-ui");
                   }}
                 >
-                  Layout Design
+                  Web and UI
                 </a>
               </li>
               <li className="nav-item">
@@ -97,10 +97,10 @@ const Works = () => {
                   }`}
                   onClick={(e) => {
                     e.preventDefault();
-                    filterBy("custom-graphic");
+                    filterBy("graphic-illustration");
                   }}
                 >
-                  Custom Graphic
+                  Graphic Illustration
                 </a>
               </li>
             </ListNav>

@@ -30,7 +30,7 @@ const WorkSingleArches = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">CUSTOM GRAPHIC, T-SHIRT DESIGN, POSTER DESIGN </Text>
+                <Text variant="tag">GRAPHIC ILLUSTRATION, T-SHIRT DESIGN, POSTER DESIGN </Text>
                 <Title variant="secSm" className="my-4">
                   Arches National Park Merch.{" "}
                 </Title>
@@ -50,9 +50,9 @@ const WorkSingleArches = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  GoToHayle
+                  Graphic Designer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -64,7 +64,7 @@ const WorkSingleArches = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Tools</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Pen, Photoshop, Illustrator, Silkscreen, Lithographic
+                  Pen, Photoshop<br /> Illustrator<br /> 
                 </Title>
               </Col>
              {/*

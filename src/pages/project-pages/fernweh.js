@@ -30,7 +30,7 @@ const WorkSingleFernweh = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING, WEB DESIGN, LAYOUT DESIGN, MARKETING, LOGO</Text>
+                <Text variant="tag">BRAND IDENTITY, UI DESIGN, LAYOUT DESIGN, MARKETING AND ADVERTISING, LOGO DESIGN</Text>
                 <Title variant="secSm" className="my-4">
                   Fernweh Hat Co.{" "}
                 </Title>
@@ -53,9 +53,11 @@ const WorkSingleFernweh = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Fernweh
+                  Graphic Designer <br />
+                  UI Designer<br />
+                  Developer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -67,7 +69,7 @@ const WorkSingleFernweh = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Tools</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Pen, Photoshop, Illustrator, InDesign, HTML, CSS, React.js, Python, Heroku
+                  Pen<br /> Photoshop<br />Illustrator<br /> InDesign<br /> HTML<br /> CSS<br /> React.js,<br /> Python<br /> Heroku
                 </Title>
               </Col>
             {/*

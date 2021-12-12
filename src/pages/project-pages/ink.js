@@ -29,9 +29,9 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">LAYOUT DESIGN, MAGAZINE DESIGN, AD DESIGN</Text>
+                <Text variant="tag">LAYOUT DESIGN, MAGAZINE DESIGN, MARKETING AND DESIGN</Text>
                 <Title variant="secSm" className="my-4">
-                  Ink Magazine{" "}
+                  Magazine Cover and Center Spread {" "}
                 </Title>
                 <Text
                   variant="p"
@@ -39,7 +39,7 @@ const WorkSingle = () => {
                     max-width: 750px;
                   `}
                 >
-                  Magazine cover and center spread layout.
+                  
                 </Text>
               </Col>
             </Row>
@@ -49,15 +49,21 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Ink
+                  Graphic Designer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
                   fall 2019
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Illustrator, Photoshop, InDesign, QuarkXPress
                 </Title>
               </Col>
               {/*

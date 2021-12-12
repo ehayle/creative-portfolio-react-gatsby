@@ -16,6 +16,12 @@ import imgS7 from "../../assets/image/projects/KindBakery/bag.jpg";
 import imgS8 from "../../assets/image/projects/KindBakery/bredBag1.jpg";
 import imgS9 from "../../assets/image/projects/KindBakery/bag-sweets.jpg";
 import imgS10 from "../../assets/image/projects/KindBakery/businessCards.jpg";
+
+import web4 from "../../assets/image/projects/KindBakery/web4_1440.jpg";
+import web2 from "../../assets/image/projects/KindBakery/web2_1440.jpg";
+import web3 from "../../assets/image/projects/KindBakery/web3_1440.jpg";
+import web1 from "../../assets/image/projects/KindBakery/web1_1440.jpg";
+
 import { device } from "../../utils";
 
 const WorkSingleKindBakery = () => {
@@ -35,9 +41,9 @@ const WorkSingleKindBakery = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING, LAYOUT DESIGN, LOGO</Text>
+                <Text variant="tag">BRAND IDENTITY, LAYOUT DESIGN, LOGO DESIGN. WEB DESIGN, WEB DEVELOPMENT</Text>
                 <Title variant="secSm" className="my-4">
-                  Adaptable but Identifiable Brand Identity for Kind Bakery.{" "}
+                  Kind Bakery{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -57,9 +63,9 @@ const WorkSingleKindBakery = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Kind Bakery
+                  Graphic Designer<br />Web Designer<br />Developer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -71,7 +77,7 @@ const WorkSingleKindBakery = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Tools</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Pen, Photoshop, Illustrator, InDesign, HTML, CSS, React.js, Python, Heroku
+                  Pen, Photoshop, Illustrator, InDesign<br /> HTML, CSS, React.js, Python, Heroku, GitHub
                 </Title>
               </Col>
             {/*
@@ -85,6 +91,19 @@ const WorkSingleKindBakery = () => {
         <Section className="mt-lg-5">
           <Container>
             <Row>
+            <Col xs="12" className="mb-5">
+                <img src={web4} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col xs="12" className="mb-5">
+                <img src={web2} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col xs="12" className="mb-5">
+                <img src={web3} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col xs="12" className="mb-5">
+                <img src={web1} alt="" className="img-fluid w-100" />
+              </Col>
+
               <Col xs="12" className="mb-5">
                 <img src={imgS1} alt="" className="img-fluid w-100" />
               </Col>

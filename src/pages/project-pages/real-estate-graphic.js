@@ -28,7 +28,7 @@ const WorkSingleRealEstate = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">LAYOUT DESIGN, BROCHURE DESIGN, UI DESIGN, DEVELOPMENT</Text>
+                <Text variant="tag">MARKETING AND ADVERTISING, REAL ESTATE GRAPHIC, LAYOUT DESIGN, BROCHURE DESIGN, UI DESIGN, DEVELOPMENT</Text>
                 <Title variant="secSm" className="my-4">
                   Palm Springs California Reality Brochure.{" "}
                 </Title>
@@ -48,9 +48,11 @@ const WorkSingleRealEstate = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Private Residence
+                  Graphic Designer<br />
+                  UI designer<br />
+                  Developer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -63,7 +65,7 @@ const WorkSingleRealEstate = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Tools</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Pen, Photoshop, Illustrator, InDesign, HTML, CSS, React.js, Python, Heroku
+                  Pen<br /> Photoshop<br /> Illustrator<br /> InDesign<br /> HTML, CSS<br /> React.js<br /> Python<br /> Heroku
                 </Title>
               </Col>
               <Col lg="4">

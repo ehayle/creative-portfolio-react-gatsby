@@ -16,13 +16,25 @@ import imgT14 from "../assets/image/projects/Topsy/TopsyCardOne-1080x1080.jpg";
 import imgT15 from "../assets/image/projects/Paintball/PaintSpreadCover-1400x900.jpg";
 import imgT16 from "../assets/image/projects/Zowee/ExhibitionStand-1400x900.jpg";
 import imgT17 from "../assets/image/projects/MadMex/MadMexLogo-1080x1080.jpg";
+import imgT19 from "../assets/image/projects/KindBakery/web3_1440.jpg";
+import imgT20 from "../assets/image/projects/MadMex/TacoTruckTwo-1440x900.jpg";
+import imgT21 from "../assets/image/projects/Fernweh/desktop_moc-1440x900.jpg";
 
 export const designWorks1 = [
+
+  {
+    brand: `Kind Bakery`,
+    slug: `kind-bakery`,
+    title: `Guilt free treats!`,
+    categories: [`brand-identity`],
+    thumbnail: imgT6,
+  link : "/project-pages/kind-bakery"
+},
   {
     brand: `SOUL FREQ`,
     slug: `soul-freq`,
     title: `Personal Protective Equipment World`,
-    categories: [`layout-design`, `branding`, `logo-design`, `custom-graphic`],
+    categories: [`brand-identity`],
     thumbnail: imgT18,
   link : "/project-pages/soul-freq"
 },
@@ -30,7 +42,7 @@ export const designWorks1 = [
     brand: `PPE World`,
     slug: `ppe-world`,
     title: `Personal Protective Equipment World`,
-    categories: [`branding`, `logo-design`, `layout-design`],
+    categories: [`brand-identity`],
     thumbnail: imgT1,
   link : "/project-pages/ppe-world"
 },
@@ -38,7 +50,7 @@ export const designWorks1 = [
     brand: `Arches Nat. Park`,
     slug: `arches-national-park`,
     title: `Arches National Park Merch.`,
-    categories: [`custom-graphic`, `branding`],
+    categories: [`graphic-illustration`],
     thumbnail: imgT2,
   link : "/project-pages/arches-national-park"
 },
@@ -46,7 +58,7 @@ export const designWorks1 = [
     brand: `GoToHayle`,
     slug: `gotohayle`,
     title: `Go To Hayle - Digital Design Service`,
-    categories: [`custom-graphic`, `branding`],
+    categories: [`brand-identity`, `graphic-illustration`],
     thumbnail: imgT3,
   link : "/project-pages/go-to-hayle"
 },
@@ -54,7 +66,7 @@ export const designWorks1 = [
     brand: `Real Estate Brochure`,
     slug: `real-estate-brochure`,
     title: `Palm Spring real estate brochure.`,
-    categories: [`layout-design`],
+    categories: [`marketing-advertising`],
     thumbnail: imgT4,
   link : "/project-pages/real-estate-graphic"
 },
@@ -62,7 +74,7 @@ export const designWorks1 = [
     brand: `Fernweh`,
     slug: `Fernweh`,
     title: `Fernweh Hat Co.`,
-    categories: [`branding`, `logo-design`,`layout-design`],
+    categories: [`brand-identity`],
     thumbnail: imgT5,
   link : "/project-pages/fernweh"
 },
@@ -70,23 +82,31 @@ export const designWorks1 = [
     brand: `Kind Bakery`,
     slug: `kind-bakery`,
     title: `Guilt free treats!`,
-    categories: [`branding`, `logo-design`, `layout-design`],
-    thumbnail: imgT6,
+    categories: [`web-ui`],
+    thumbnail: imgT19,
   link : "/project-pages/kind-bakery"
 },
   {
     brand: `VAM`,
     slug: `vam`,
     title: `Vitality Asset Management.`,
-    categories: [`branding`, `logo-design`, `layout-design`],
+    categories: [`brand-identity`],
     thumbnail: imgT7,
   link : "/project-pages/vam"
+},
+{
+  brand: `MadMex`,
+  slug: `madmex`,
+  title: `MadMex Mexican Grill`,
+  categories: [ `graphic-illustration`],
+  thumbnail: imgT20,
+  link : "/project-pages/madmex"
 },
   {
     brand: `GreenFarms`,
     slug: `green-farms`,
     title: `Green Farms Natural Grocer`,
-    categories: [`branding`, `logo-design`, `layout-design`],
+    categories: [`brand-identity`],
     thumbnail: imgT8,
   link : "/project-pages/green-farms"
 },
@@ -94,7 +114,7 @@ export const designWorks1 = [
     brand: `Berzzerk`,
     slug: `berzzerk`,
     title: `Electronic music DJ and music producer BERZZERK.`,
-    categories: [`branding`, `logo-design`],
+    categories: [`graphic-illustration`, `brand-identity`],
     thumbnail: imgT9,
   link : "/project-pages/berzzerk"
 },
@@ -102,7 +122,7 @@ export const designWorks1 = [
     brand: `Frolic With Me.`,
     slug: `frolic-with-me`,
     title: `Frolic With Me. Travel Blogg`,
-    categories: [`branding`, `logo-design`, `layout-design`],
+    categories: [`brand-identity`, `web-ui`],
     thumbnail: imgT10,
   link : "/project-pages/frolic-with-me"
 },
@@ -110,7 +130,7 @@ export const designWorks1 = [
     brand: `Foxhole Fashion`,
     slug: `foxhole-fashion`,
     title: `Recycled, trendy clothin boutique.`,
-    categories: [`branding`, `logo-design`, `layout-design`],
+    categories: [`brand-identity`],
     thumbnail: imgT11,
   link : "/project-pages/foxhole-fashion"
 },
@@ -118,7 +138,7 @@ export const designWorks1 = [
     brand: `Treasure`,
     slug: `treasure`,
     title: `Treasure, book jacket design.`,
-    categories: [`layout-design`, `custom-graphic`],
+    categories: [`marketing-advertising`, `graphic-illustration`],
     thumbnail: imgT12,
   link : "/project-pages/treasure"
 },
@@ -126,7 +146,7 @@ export const designWorks1 = [
     brand: `Ink`,
     slug: `ink`,
     title: `Magazine Cover and Center Spread Design.`,
-    categories: [`layout-design`],
+    categories: [`marketing-advertising`],
     thumbnail: imgT13,
   link : "/project-pages/ink"
 },
@@ -134,15 +154,23 @@ export const designWorks1 = [
     brand: `Topsy Turkey`,
     slug: `topsy-turkey`,
     title: `Topsy Turkey Brand Identity.`,
-    categories: [ `branding`, `logo-design`, `layout-design`],
+    categories: [ `brand-identity`, `marketing-advertising`, `web-ui`],
     thumbnail: imgT14,
   link : "/project-pages/topsy-turkey"
+},
+{
+  brand: `Fernweh`,
+  slug: `Fernweh`,
+  title: `Fernweh Hat Co.`,
+  categories: [`web-ui`],
+  thumbnail: imgT21,
+link : "/project-pages/fernweh"
 },
 {
   brand: `Backup Paint`,
   slug: `backup-paint`,
   title: `Backup Magazine Cover and Spread Design`,
-  categories: [ `layout-design`],
+  categories: [ `marketing-advertising`],
   thumbnail: imgT15,
 link : "/project-pages/paintball-spread"
 },
@@ -150,7 +178,7 @@ link : "/project-pages/paintball-spread"
   brand: `Zowee Products`,
   slug: `zowee-products`,
   title: `Zowee Products Marketing`,
-  categories: [ `layout-design`],
+  categories: [ `brand-identity`, `marketing-advertising`],
   thumbnail: imgT16,
 link : "/project-pages/zowee-products"
 },
@@ -158,7 +186,7 @@ link : "/project-pages/zowee-products"
   brand: `MadMex`,
   slug: `madmex`,
   title: `MadMex Mexican Grill`,
-  categories: [ `branding`, `logo-design`, `layout-design`, `custom-graphic`],
+  categories: [ `brand-identity`],
   thumbnail: imgT17,
 link : "/project-pages/madmex"
 },

@@ -29,9 +29,9 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BOOK JACKET DESIGN, MARKETING, LAYOUT DESIGN, CUSTOM GRAPHIC</Text>
+                <Text variant="tag">BOOK JACKET DESIGN, LOGO DESIGN, MARKETING AND DESIGN, LAYOUT DESIGN, GRAPHIC ILLUSTRATION</Text>
                 <Title variant="secSm" className="my-4">
-                  A book jacket redesign of 1978 Ballantine Books publishing of Robert Daily's Treasure for redistribution.{" "}
+                  Book Jacket Redesign{" "}
                 </Title>
                 <Text
                   variant="p"
@@ -48,10 +48,22 @@ const WorkSingle = () => {
         <div className="mt-lg-3">
           <Container>
             <Row>
+            <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Role</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Graphic Designer
+                </Title>
+              </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
                   2020
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  pen, Illustrator, Photoshop
                 </Title>
               </Col>
               

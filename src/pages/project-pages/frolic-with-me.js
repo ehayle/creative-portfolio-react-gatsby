@@ -54,9 +54,11 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Frolic With Me
+                  Graphic Designer<br />
+                  Web DesigNER <br />
+                  Developer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -68,7 +70,7 @@ const WorkSingle = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Tools</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Pen, Photoshop, Illustrator, InDesign, HTML, CSS, PHP, Javascript, WordPress
+                  Pen, Photoshop, Illustrator, InDesign <br /> HTML, CSS, PHP, Javascript, WordPress, GitHub
                 </Title>
               </Col>
                {/*

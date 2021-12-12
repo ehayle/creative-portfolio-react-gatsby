@@ -29,7 +29,7 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING, LOGO, LAYOUT DESIGN, MARKETING</Text>
+                <Text variant="tag">BRAND IDENTITY, LOGO DESIGN, MARKETING AND ADVERTISING, WEB DESIGN, WEB DEVELOPMENT </Text>
                 <Title variant="secSm" className="my-4">
                   Topsy Turkey | Choice Chicken{" "}
                 </Title>
@@ -48,16 +48,22 @@ const WorkSingle = () => {
         <div className="mt-lg-3">
           <Container>
             <Row>
-              <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+            <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Topsy Turkey
+                  Graphic Designer<br /> Web Designe<br /> Developer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Time</Text>
                 <Title variant="cardBig" className="mt-3">
-                  2019
+                   2019
+                </Title>
+              </Col>
+              <Col lg="4" className="mb-4 mb-lg-0">
+                <Text variant="tag">Tools</Text>
+                <Title variant="cardBig" className="mt-3">
+                  Pen, Illustrator, Photoshop, InDesign, QuarkXPress<br /> HTML, CSS, Javascript, GitHub
                 </Title>
               </Col>
               {/*

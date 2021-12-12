@@ -30,7 +30,7 @@ const WorkSingleGreenFarms = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING, LAYOUT DESIGN, BANNER DESIGN, LOGO</Text>
+                <Text variant="tag">BRAND IDENTITY, LAYOUT DESIGN, LOGO DESIGN</Text>
                 <Title variant="secSm" className="my-4">
                   Brand Identity for GreenFarms{" "}
                 </Title>
@@ -50,9 +50,9 @@ const WorkSingleGreenFarms = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  GFNG
+                  Graphic Designer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -64,7 +64,7 @@ const WorkSingleGreenFarms = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Tools</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Pen, Photoshop, Illustrator, InDesign
+                  Pen<br /> Photoshop<br /> Illustrator<br /> InDesign
                 </Title>
               </Col>
             {/*

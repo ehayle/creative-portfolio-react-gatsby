@@ -29,7 +29,7 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="8">
-                <Text variant="tag">BRANDING, LOGO</Text>
+                <Text variant="tag">BRAND IDENTITY, LOGO DESIGN, MARKETING AND DESIGN</Text>
                 <Title variant="secSm" className="my-4">
                   Identifiable branding for BERZZERK.{" "}
                 </Title>
@@ -49,9 +49,9 @@ const WorkSingle = () => {
           <Container>
             <Row>
               <Col lg="4" className="mb-4 mb-lg-0">
-                <Text variant="tag">Client</Text>
+                <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
-                  BERZZERK
+                Graphic Designer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -63,7 +63,7 @@ const WorkSingle = () => {
               <Col lg="4" className="mb-4 mb-lg-0">
                 <Text variant="tag">Tools</Text>
                 <Title variant="cardBig" className="mt-3">
-                  Pen, Photoshop, Illustrator, InDesign
+                  Pen<br /> Photoshop<br /> Illustrator<br /> InDesign
                 </Title>
               </Col>
                {/*
