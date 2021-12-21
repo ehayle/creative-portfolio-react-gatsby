@@ -32,11 +32,11 @@ const Hero = ({ pattern = true }) => {
                   color="heading"
                   mb="40px"
                 >
-                  GRAPHIC DESIGNER, WEB DESIGNER, WEB DEVELOPER, ILLUSTRATOR, UI DESIGNER, VISUAL DESIGNER, MOTION GRAPHICS, FRONT END DEVELOPER, LOGO DESIGNER,
-                  BRAND DESIGNER, PRINT AND DIGITAL MARKETING AND ADVERTISING  
+                  GRAPHIC DESIGNER, WEB DEVELOPER, VISUAL DESIGNER, LOGO DESIGNER,
+                  BRANDING, PRINT, DIGITAL, MARKETING, ADVERTISING, <br /><br />   Remote<br /> Denver, Colorado
                 </Text>
                 <Title variant="hero">
-                  Studio of E.Hayle
+                  
                 </Title>
 
                 <Box mt="52px">

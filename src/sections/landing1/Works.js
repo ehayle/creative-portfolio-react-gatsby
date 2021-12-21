@@ -107,7 +107,7 @@ const Works = () => {
           </Box>
         </Container>
 
-        <Container fluid>
+        <Container>
           <Masonry
             options={masonryOptions}
             className={"masonry-grid row"} // default ''
