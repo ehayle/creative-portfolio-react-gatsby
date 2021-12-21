@@ -1,3 +1,5 @@
+
+
 import imgT18 from "../assets/image/projects/SoulFreq/SF_moc_1_1080x1080.jpg";
 import imgT1 from "../assets/image/projects/PPE World/logo_1440.jpg";
 import imgT2 from "../assets/image/projects/Arches/arches_shirt-2.jpg";
@@ -19,6 +21,7 @@ import imgT17 from "../assets/image/projects/MadMex/MadMexLogo-1080x1080.jpg";
 import imgT19 from "../assets/image/projects/KindBakery/web3_1440.jpg";
 import imgT20 from "../assets/image/projects/MadMex/TacoTruckTwo-1440x900.jpg";
 import imgT21 from "../assets/image/projects/Fernweh/desktop_moc-1440x900.jpg";
+
 
 export const designWorks1 = [
 

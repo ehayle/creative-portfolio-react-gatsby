@@ -6,12 +6,13 @@ import { Link } from "react-scroll";
 import { Title, Button, Section, Box, Text } from "../../components/Core";
 
 //import { device } from "../../utils";
-import gthDrip from "../../assets/image/png/Ggraphic.png";
+// import gthDrip from "../../assets/image/png/Ggraphic.png";
+import Video from "./Videos";
+import Videoes from "./Videoes";
 
 
-const ImgRight = styled.img`
-  max-width: 100%;
-`;
+
+
 
 
 
@@ -19,11 +20,10 @@ const ImgRight = styled.img`
 const Hero = ({ pattern = true }) => {
   return (
     <>
-      {/* <!-- Hero Area --> 
       <Section hero className="position-relative">
         <Container>
           <Row className="align-items-center">
-            <Col lg="7" className="mb-5 mb-lg-0">
+            <Col lg="12" className="mb-5 mb-lg-0">
               <Box>
                 <Text
                   variant="tag"
@@ -32,10 +32,11 @@ const Hero = ({ pattern = true }) => {
                   color="heading"
                   mb="40px"
                 >
-                  GRAPHIC DESIGNER, WEB DESIGNER, WEB DEVELOPER 
+                  GRAPHIC DESIGNER, WEB DESIGNER, WEB DEVELOPER, ILLUSTRATOR, UI DESIGNER, VISUAL DESIGNER, MOTION GRAPHICS, FRONT END DEVELOPER, LOGO DESIGNER,
+                  BRAND DESIGNER, PRINT AND DIGITAL MARKETING AND ADVERTISING  
                 </Text>
                 <Title variant="hero">
-                  I design digital crafts.
+                  Studio of E.Hayle
                 </Title>
 
                 <Box mt="52px">
@@ -46,16 +47,23 @@ const Hero = ({ pattern = true }) => {
                     offset={-50}
                     duration={1000}
                   >
-                    <Button arrowRight>Explore works </Button>
+                    <Button arrowRight>WORKS</Button>
                   </Link>
                 </Box>
               </Box>
             </Col>
             
-            <Col lg="5" md="8" sm="9">
+            <Col lg="12" md="8" sm="9">
               <div className="text-center text-lg-right position-relative">
                 <div className="img-main">
-                  <ImgRight src={gthDrip} alt="" />
+                  <Video />
+                </div>
+              </div>
+            </Col>
+            <Col lg="12" md="8" sm="9">
+              <div className="text-center text-lg-right position-relative">
+                <div className="img-main">
+                  <Videoes />
                 </div>
               </div>
             </Col>
@@ -66,7 +74,7 @@ const Hero = ({ pattern = true }) => {
           </Row>
         </Container>
       </Section>
-      */}
+      
     </>
   );
 };
