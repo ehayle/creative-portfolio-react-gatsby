@@ -21,17 +21,10 @@ const WorkSingle = () => {
   return (
     <>
       <PageWrapper>
-        <Container
-          fluid
-          className="px-sm-5"
-          css={`
-            margin-top: 92px;
-          `}
-        >
-          <img src={imgWorkCover} alt="" className="img-fluid w-100" />
-        </Container>
+      
         <Section className="mt-lg-5">
           <Container>
+          <img src={imgWorkCover} alt="" className="img-fluid w-100 mb-lg-5"  />
             <Row>
               <Col lg="8">
                 <Text variant="tag">BRANDING, LOGO, UI DESIGN, DEVELOPMENT, GRAPHIC MARKETING ASSETS, LAYOUT DESIGN</Text>
@@ -57,8 +50,8 @@ const WorkSingle = () => {
                 <Text variant="tag">Role</Text>
                 <Title variant="cardBig" className="mt-3">
                   Graphic Designer<br />
-                  Web DesigNER <br />
-                  Developer
+                  UI Designer <br />
+                  UI Developer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">

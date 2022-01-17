@@ -20,10 +20,10 @@ import Videoes from "./Videoes";
 const Hero = ({ pattern = true }) => {
   return (
     <>
-      <Section hero className="position-relative">
+      <Section hero className="position-relative" >
         <Container>
           <Row className="align-items-center">
-            <Col lg="12" className="mb-5 mb-lg-0">
+            <Col lg="12" className="mb-5">
               <Box>
                 <Text
                   variant="tag"
@@ -31,6 +31,7 @@ const Hero = ({ pattern = true }) => {
                   className="text-uppercase"
                   color="heading"
                   mb="40px"
+                  mt="0"
                 >
                   GRAPHIC DESIGNER, WEB DEVELOPER, VISUAL DESIGNER, LOGO DESIGNER,
                   BRANDING, PRINT, DIGITAL, MARKETING, ADVERTISING, <br /><br />   Remote<br /> Denver, Colorado

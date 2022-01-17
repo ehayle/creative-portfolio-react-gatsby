@@ -9,7 +9,7 @@ const Logo = ({ color = "front", height, className = "", ...rest }) => {
     <Link to="/" className={`${className}`} {...rest}>
       <Title color={color} variant="cardLg" className="mb-0">
       <img width="40px" height="auto" className="mr-3" src={gthDrip}  />
-        GoToHayle
+        
       </Title>
     </Link>
   );

@@ -14,9 +14,9 @@ const IndexPage = () => {
 
   return (
     <>
-    <Video />
+    
       <PageWrapper>
-        
+        <Video />
         <Hero />
         
         <Element name="works">

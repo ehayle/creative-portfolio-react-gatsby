@@ -16,17 +16,10 @@ const WorkSingle = () => {
   return (
     <>
       <PageWrapper>
-        <Container
-          fluid
-          className="px-sm-5"
-          css={`
-            margin-top: 92px;
-          `}
-        >
-          <img src={imgWorkCover} alt="" className="img-fluid w-100" />
-        </Container>
+  
         <Section className="mt-lg-5">
           <Container>
+          <img src={imgWorkCover} alt="" className="img-fluid w-100 mb-lg-5"  />
             <Row>
               <Col lg="8">
                 <Text variant="tag">BRAND IDENTITY, LOGO DESIGN, MARKETING AND DESIGN</Text>

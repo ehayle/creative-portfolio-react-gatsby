@@ -1,5 +1,10 @@
 import React from 'react';
+import { Container, Row, Col } from "react-bootstrap";
 import GTH from '../../assets/video/GoToHayle_1920.mp4'
+
+import { Title, Button, Section, Box, Text } from "../../components/Core";
+
+
 
 const videoStyle = {
    // border: '2px solid red',
@@ -14,9 +19,16 @@ const videoStyle = {
 class Video extends React.Component {
 render(){
    return(
-      <div className="myVideo">
-          <video style={videoStyle} autostart autoPlay muted loop playsinline webkit-playsinline src={GTH} type={this.props.type}/>
-     </div>
+     //<Section>
+       //<Container>
+     
+               <div className="myVideo">
+                  <video style={videoStyle} autostart autoPlay muted loop playsinline webkit-playsinline src={GTH} type={this.props.type}/>
+               </div>
+           
+     // </Container>
+     //</Section>
+
       )
     }
   }
