@@ -23,18 +23,17 @@ const Hero = ({ pattern = true }) => {
       <Section hero className="position-relative" >
         <Container>
           <Row className="align-items-center">
-            <Col lg="12" className="mb-5">
+            <Col lg="12">
               <Box>
                 <Text
                   variant="tag"
                   mb={4}
                   className="text-uppercase"
                   color="heading"
-                  mb="40px"
                   mt="0"
                 >
-                  GRAPHIC DESIGNER, WEB DEVELOPER, VISUAL DESIGNER, LOGO DESIGNER,
-                  BRANDING, PRINT, DIGITAL, MARKETING, ADVERTISING, <br /><br />   Remote<br /> Denver, Colorado
+                  GRAPHIC DESIGNER, WEB DESIGNER, VISUAL DESIGNER, BRAND DESIGNER, LOGO DESIGNER, WEB DEVELOPER,
+                  PRINT, DIGITAL, MARKETING, ADVERTISING, <br /><br />   Remote<br /> Denver, Colorado
                 </Text>
                 <Title variant="hero">
                   
@@ -53,23 +52,23 @@ const Hero = ({ pattern = true }) => {
                 </Box>
               </Box>
             </Col>
-            
-            <Col lg="12" md="8" sm="9">
-              <div className="text-center text-lg-right position-relative">
-                <div className="img-main">
-                  <Video />
-                </div>
-              </div>
-            </Col>
-            <Col lg="12" md="8" sm="9">
-              <div className="text-center text-lg-right position-relative">
-                <div className="img-main">
-                  <Videoes />
-                </div>
-              </div>
-            </Col>
-     
-           
+       {/*      
+           <Col lg="12" md="8" sm="9">
+             <div className="text-center text-lg-right position-relative">
+               <div className="img-main">
+                 <Video />
+               </div>
+             </div>
+           </Col>
+           <Col lg="12" md="8" sm="9">
+             <div className="text-center text-lg-right position-relative">
+               <div className="img-main">
+                 <Videoes />
+               </div>
+             </div>
+           </Col>
+       */} 
+          
   
            
           </Row>
