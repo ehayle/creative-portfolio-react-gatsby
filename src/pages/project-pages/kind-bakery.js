@@ -73,6 +73,31 @@ const WorkSingleKindBakery = () => {
                   Pen, Photoshop, Illustrator, InDesign<br /> HTML, CSS, React.js, Python, Heroku, GitHub
                 </Title>
               </Col>
+              <Section className="pt-4 pb-0">
+                <Container>
+                  <Title variant="secSm" className="mb-5 pb-lg-4">
+                  
+                  </Title>
+                  <Row>
+                    <Col lg="6" className="mb-5 pr-lg-5">
+                      <Title variant="cardBig" className="mb-4">
+                        Commission
+                      </Title>
+                      <Text variant="p">
+                      KIND Bakery trusted me to brand their business to have lasting results and above all industry growth. Develop a branding package that speaks loudly and creates a youthful energy. 
+                      </Text>
+                    </Col>
+                    <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                    <Title variant="cardBig" className="mb-4">
+                      Deliverables
+                      </Title>
+                      <Text variant="p">
+                      Market research, competitive and comparative analysis, sketches, digital Assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
+                      </Text>
+                    </Col>
+                  </Row>
+                </Container>
+              </Section>
             {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -112,31 +137,7 @@ const WorkSingleKindBakery = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Commission
-                </Title>
-                <Text variant="p">
-                KIND Bakery trusted me to brand their business to have lasting results and above all industry growth. Develop a branding package that speaks loudly and creates a youthful energy. 
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-              <Title variant="cardBig" className="mb-4">
-                 Deliverables
-                </Title>
-                <Text variant="p">
-                Market research, competitive and comparative analysis, sketches, digital Assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
-                </Text>
-              </Col>
-            </Row>
-          </Container>
-        </Section>
+       
         <Section mt="22%" bg="dark">
           <Container>
             <Row
@@ -168,7 +169,7 @@ const WorkSingleKindBakery = () => {
               <Text variant="tag" className="mb-1" color="lightShade">
                 Next Project
               </Text>
-              <Link to="/project-pages/vam">
+              <Link to="/project-pages/soul-freq">
                 <Button
                   arrowRight
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"
@@ -182,7 +183,7 @@ const WorkSingleKindBakery = () => {
                     }
                 `}
                 >
-                  VAM
+                  SoulFreq
                 </Button>
               </Link>
             </div>

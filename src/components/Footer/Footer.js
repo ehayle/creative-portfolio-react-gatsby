@@ -24,7 +24,7 @@ const Footer = ({ isDark = true }) => {
               `}
               className="text-uppercase"
             >
-              © 2021 GoToHayle All right reseved
+              © 2022 GoToHayle All right reseved
             </Title>
           </div>
         </Container>

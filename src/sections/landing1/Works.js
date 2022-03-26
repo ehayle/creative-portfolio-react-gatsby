@@ -113,7 +113,7 @@ const Works = () => {
             className={"masonry-grid row"} // default ''
           >
             {items.map((item, index) => (
-              <Col lg="4" md="4" sm="6" key={index} className="filtr-item">
+              <Col lg="3" md="4" sm="12" key={index} className="filtr-item">
                 <WorkCard workItem={item} mb="30px" link={item.link}/>
               </Col>
             ))}

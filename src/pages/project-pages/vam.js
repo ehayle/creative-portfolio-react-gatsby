@@ -11,6 +11,7 @@ import imgS2 from "../../assets/image/projects/VAM/vam-2.jpg";
 import imgS3 from "../../assets/image/projects/VAM/vam-3sq.jpg";
 import imgS4 from "../../assets/image/projects/VAM/vam-4sq.jpg";
 import imgS5 from "../../assets/image/projects/VAM/vam-5.jpg";
+import imgS6 from "../../assets/image/projects/VAM/smartphone-1440.jpg";
 import { device } from "../../utils";
 
 const WorkSingleVam = () => {
@@ -33,12 +34,13 @@ const WorkSingleVam = () => {
                     max-width: 750px;
                   `}
                 >
-                  "You can count on Vitality Asset Management to be vigilant with to your financial goals."
+                  
                 </Text>
               </Col>
             </Row>
           </Container>
         </Section>
+
         <div className="mt-lg-3">
           <Container>
             <Row>
@@ -66,14 +68,28 @@ const WorkSingleVam = () => {
               </Col>
              */} 
             </Row>
+              <Row>
+                <Col lg="6" className="mb-5 pr-lg-5">
+                  <Title variant="cardBig" className="mb-4">
+                  Deliverables
+                  </Title>
+                  <Text variant="p">
+                  Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
+                  </Text>
+                </Col>
+              </Row>
           </Container>
         </div>
         <Section className="mt-lg-5">
           <Container>
             <Row>
+            <Col xs="12" className="mb-5">
+                <img src={imgS6} alt="" className="img-fluid w-100" />
+              </Col>
               <Col xs="12" className="mb-5">
                 <img src={imgS1} alt="" className="img-fluid w-100" />
               </Col>
+    
               <Col xs="12" className="mb-5">
                 <img src={imgS2} alt="" className="img-fluid w-100" />
               </Col>
@@ -86,25 +102,7 @@ const WorkSingleVam = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                Deliverables
-                </Title>
-                <Text variant="p">
-                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
-                </Text>
-              </Col>
-        
-
-            </Row>
-          </Container>
-        </Section>
+    
         <Section mt="22%" bg="dark">
           <Container>
             <Row
@@ -121,7 +119,7 @@ const WorkSingleVam = () => {
               <Text variant="tag" className="mb-1" color="lightShade">
                 Next Project
               </Text>
-              <Link to="/project-pages/green-farms">
+              <Link to="/project-pages/madmex">
                 <Button
                   arrowRight
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"
@@ -135,7 +133,7 @@ const WorkSingleVam = () => {
                     }
                 `}
                 >
-                  Green Farms Natural Grocer
+                  MadMex Mexican Street Food
                 </Button>
               </Link>
             </div>

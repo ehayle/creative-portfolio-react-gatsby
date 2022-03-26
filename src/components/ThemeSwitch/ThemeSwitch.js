@@ -9,7 +9,7 @@ const BoxWrapper = styled(Box)`
   position: fixed;
   right: 0;
   transform: translateX(100%);
-  top: 30%;
+  top: 80%;
   z-index: 99;
   &.opened {
     transform: translate(0);
@@ -102,7 +102,7 @@ const ThemeSwitch = (props) => {
         {...props}
       >
         <Panel bg="primary" className="position-relative">
-          <TextBox>Change Version</TextBox>
+          <TextBox>Color Mode</TextBox>
           <ButtonGroup>
             <Button
               className={!gContext.theme.bodyDark ? "active" : ""}

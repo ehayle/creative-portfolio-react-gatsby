@@ -157,12 +157,12 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                 </Text>
                 <div className="mt-5 d-flex">
                     <LinkSocial
-                      href="https://www.behance.net/"
+                      href="https://github.com/ehayle"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="mr-3"
                     >
-                      Behance
+                      GitHub
                     </LinkSocial>
                     <LinkSocial
                       href="https://www.instagram.com"
@@ -173,12 +173,10 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                       Instagram
                     </LinkSocial>
                     <LinkSocial
-                      href="https://www.linkedin.com/in/eric-hayle-8515b7205/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="mr-3"
+                    
                     >
-                      LinkedIn
+                      <a href="https://www.linkedin.com/in/eric-hayle-8515b7205/">LinkedIn</a>
+                      
                     </LinkSocial>
 
                   </div>

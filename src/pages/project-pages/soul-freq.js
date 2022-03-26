@@ -63,6 +63,23 @@ const WorkSingleSoul = () => {
                   Pen, Photoshop, Illustrator
                 </Title>
               </Col>
+              <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+            
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Deliverables
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
+                </Text>
+              </Col>
+            </Row>
+          </Container>
+        </Section>
              {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -89,23 +106,7 @@ const WorkSingleSoul = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-            Commission
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                Deliverables
-                </Title>
-                <Text variant="p">
-                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
-                </Text>
-              </Col>
-            </Row>
-          </Container>
-        </Section>
+
         <Section mt="22%" bg="dark">
           <Container>
             <Row

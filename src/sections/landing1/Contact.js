@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import styled from "styled-components";
+import { Link } from "gatsby";
 
 import GlobalContext from "../../context/GlobalContext";
 import { Section, Title, ButtonIcon } from "../../components/Core";
@@ -45,6 +46,17 @@ const Hero = ({ pattern = true }) => {
                   }}
                 >
                   Let's Talk Now
+                </ButtonIcon>
+                <ButtonIcon  
+                    ml="10px"
+                >
+                  <Link to="https://www.linkedin.com/in/eric-hayle-8515b7205/" 
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    >
+                      LinkedIn
+                  </Link>
+                  
                 </ButtonIcon>
               </div>
             </Col>

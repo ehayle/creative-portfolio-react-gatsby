@@ -132,7 +132,7 @@ const WorkSingleFernweh = () => {
               <Text variant="tag" className="mb-1" color="lightShade">
                 Next Project
               </Text>
-              <Link to="/project-pages/kind-bakery">
+              <Link to="/project-pages/vam">
                 <Button
                   arrowRight
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"
@@ -146,7 +146,7 @@ const WorkSingleFernweh = () => {
                     }
                 `}
                 >
-                  Kind Bakery
+                  Vitality Asset Management
                 </Button>
               </Link>
             </div>

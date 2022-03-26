@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "gatsby";
+import { Link } from "gatsby";
 import { Container, Row, Col } from "react-bootstrap";
 
 import { Section, Button, Title, Text, Box } from "../../components/Core";
@@ -10,7 +10,7 @@ import imgS3 from "../../assets/image/projects/MadMex/TacoTruckBox-1080x1080.jpg
 import imgS4 from "../../assets/image/projects/MadMex/MadMexLogo-1080x1080.jpg";
 import imgS5 from "../../assets/image/projects/MadMex/TacoTruckTwo-1440x900.jpg";
 import imgS6 from "../../assets/image/projects/MadMex/TactTruckOne-1440x900.jpg";
-// import { device } from "../../utils";
+import { device } from "../../utils";
 
 import Contact from "../../sections/landing1/Contact";
 
@@ -126,8 +126,8 @@ const WorkSingle = () => {
               <Text variant="tag" className="mb-1" color="lightShade">
                 
               </Text>
-              {/* 
-              <Link to="/project-pages/madmex">
+              
+              <Link to="/project-pages/green-farms">
                 <Button
                   arrowRight
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"
@@ -141,10 +141,10 @@ const WorkSingle = () => {
                     }
                 `}
                 >
-                  Replace
+                  Green Farms Natural Grocer
                 </Button>
               </Link>
-              */}
+              
 
             </div>
           </Container>
