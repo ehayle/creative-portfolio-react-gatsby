@@ -175,7 +175,9 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     <LinkSocial
                     
                     >
-                      <a href="https://www.linkedin.com/in/eric-hayle-8515b7205/">LinkedIn</a>
+                      <a href="https://www.linkedin.com/in/eric-hayle-8515b7205/" target="_blank"
+                      rel="noopener noreferrer"
+                      className=" mr-3">LinkedIn</a>
                       
                     </LinkSocial>
 
