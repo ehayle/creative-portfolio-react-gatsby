@@ -66,6 +66,34 @@ const WorkSingle = () => {
               </Col>
              */} 
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+             
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis
+                </Title>
+                <Text variant="p">
+                A book jacket redesign of 1978 Ballantine Books publishing of Robert Daily's Treasure for redistribution.
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  Project Goals
+                </Title>
+                <Text variant="p">
+                  The original book jacket was not very attractive and "does not attract attention on the shelf".
+                  Logo Design, Book Jacket Redesign, Print Ready Documents.
+                </Text>
+              </Col>
+              
+              
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -84,40 +112,7 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Mandate
-                </Title>
-                <Text variant="p">
-                A book jacket redesign of 1978 Ballantine Books publishing of Robert Daily's Treasure for redistribution.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Project Goals
-                </Title>
-                <Text variant="p">
-                  The original book jacket was not very attractive and "does not attract attention on the shelf"
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  03. Solution
-                </Title>
-                <Text variant="p">
-                  A vibrant design with graphic visual weight.
-                </Text>
-              </Col>
-              
-            </Row>
-          </Container>
-        </Section>
+   
         <Section mt="22%" bg="dark">
           <Container>
             <Row

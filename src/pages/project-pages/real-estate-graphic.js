@@ -65,6 +65,29 @@ const WorkSingleRealEstate = () => {
                 <Button arrowRight>Live work</Button>
               </Col>
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis
+                </Title>
+                <Text variant="p">
+                A private realty brokerage firm commissioned me for ongoing permalancer projects. The scope of work includes developing landing pages for high-end homes for sale and designing print marketing assets including residential brochures and flyers.                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+              <Title variant="cardBig" className="mb-4">
+                  Deliverables
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, landing page design and development, sketches, digital assets, print assets, typography, layout design, brochure, flyers, print-ready documents.                </Text>
+              </Col>
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -76,31 +99,7 @@ const WorkSingleRealEstate = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Mandate
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  Commission
-                </Title>
-                <Text variant="p">
-                Design user interface, develop user interface, design brochure, print-ready documents. 
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-              <Title variant="cardBig" className="mb-4">
-                  Deliverables
-                </Title>
-                <Text variant="p">
-                Market research, competitive and comparative analysis, sketches, digital Assets, print assets, typography, layout design, brochure design, print ready documents.
-                </Text>
-              </Col>
-            </Row>
-          </Container>
-        </Section>
+ 
         <Section mt="22%" bg="dark">
           <Container>
             <Row

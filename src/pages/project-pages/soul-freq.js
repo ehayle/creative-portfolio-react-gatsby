@@ -69,12 +69,20 @@ const WorkSingleSoul = () => {
             
             </Title>
             <Row>
+            <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis
+                </Title>
+                <Text variant="p">
+                SoulFreq is a modern Apothecary startup. I was commissioned to ideate the initial branding for its new product line.
+                </Text>
+              </Col>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
                 Deliverables
                 </Title>
                 <Text variant="p">
-                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
+                Market research, competitive and comparative analysis, design conception, sketches, logo design, branding asset, package design, label design, and  Print Ready Documents.
                 </Text>
               </Col>
             </Row>

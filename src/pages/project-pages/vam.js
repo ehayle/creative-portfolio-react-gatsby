@@ -12,6 +12,8 @@ import imgS3 from "../../assets/image/projects/VAM/vam-3sq.jpg";
 import imgS4 from "../../assets/image/projects/VAM/vam-4sq.jpg";
 import imgS5 from "../../assets/image/projects/VAM/vam-5.jpg";
 import imgS6 from "../../assets/image/projects/VAM/smartphone-1440.jpg";
+import imgS7 from "../../assets/image/projects/VAM/desktop_moc.jpg";
+import imgS8 from "../../assets/image/projects/VAM/web_boards.jpg";
 import { device } from "../../utils";
 
 const WorkSingleVam = () => {
@@ -68,23 +70,43 @@ const WorkSingleVam = () => {
               </Col>
              */} 
             </Row>
+            <Section className="mt-lg-5">
+              <Container>
+              <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+              </Title>
               <Row>
+              <Col lg="6" className="mb-5 pr-lg-5">
+                  <Title variant="cardBig" className="mb-4">
+                  Synopsis
+                  </Title>
+                  <Text variant="p">
+                  Vitality Asset Management commissioned me for a rebrand of its company image.                  </Text>
+                </Col>
                 <Col lg="6" className="mb-5 pr-lg-5">
                   <Title variant="cardBig" className="mb-4">
                   Deliverables
                   </Title>
                   <Text variant="p">
-                  Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
+                  Market research, competitive and comparative analysis, design conception, sketches, logo design, branding asset design, stationary elements, UI Design, and print-ready documents.
                   </Text>
                 </Col>
               </Row>
+              </Container>
+            </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
           <Container>
             <Row>
-            <Col xs="12" className="mb-5">
+              <Col xs="12" className="mb-5">
                 <img src={imgS6} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col xs="12" className="mb-5">
+                <img src={imgS7} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col xs="12" className="mb-5">
+                <img src={imgS8} alt="" className="img-fluid w-100" />
               </Col>
               <Col xs="12" className="mb-5">
                 <img src={imgS1} alt="" className="img-fluid w-100" />

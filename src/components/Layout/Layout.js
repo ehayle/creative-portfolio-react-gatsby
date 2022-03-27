@@ -143,7 +143,7 @@ const Layout = ({ children, pageContext }) => {
         theme={
           gContext.theme.bodyDark ? getTheme(modes.dark) : getTheme(modes.light)
         }
-      >
+      >s
         <ThemeSwitch />
         <GlobalStyle />
         <Helmet>

@@ -67,6 +67,32 @@ const WorkSingle = () => {
               </Col>
              */} 
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis 
+                </Title>
+                <Text variant="p">
+                Contractor for a private Vehicle Decals and Wrap shop. Commissioned for ongoing permalancer projects including custom illustrations and graphics for enterprise fleets and independent clients. 
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Deliverables
+                </Title>
+                <Text variant="p">
+                Fun energetic graphics. Market research, competitive analysis, illustrative graphics, sketches, logo design, brand identity, decal design, signage, print, and installation-ready documents.
+
+                </Text>
+              </Col>
+              
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -81,32 +107,7 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Commission 
-                </Title>
-                <Text variant="p">
-                  Custom Wraps trusted me to deliver their client, MadMex, a branding package and custom vehicle graphic that would stand out and make you crave some authentic Mexican food.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Project Goal
-                </Title>
-                <Text variant="p">
-                  Fun lively Mexican cuisine themed decal.
-                </Text>
-              </Col>
-              
-            </Row>
-          </Container>
-        </Section>
+
         <Section mt="22%" bg="dark">
           <Container>
             <Row

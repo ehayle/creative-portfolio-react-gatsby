@@ -35,6 +35,7 @@ const WorkSinglePPE = () => {
                 
                 </Text>
               </Col>
+          
             </Row>
           </Container>
         </Section>
@@ -59,12 +60,40 @@ const WorkSinglePPE = () => {
                   Pen<br /> Photoshop<br /> Illustrator
                 </Title>
               </Col>
+
              {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
               </Col>
              */} 
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis
+                </Title>
+                <Text variant="p">
+                PPE World is a distributor of Medical Gloves. I was commissioned to enhance its existing logo and expand its existing style guides. 
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Deliverables
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, sketches, logo design, stationary design, and  Print Ready Documents.
+                </Text>
+              </Col>
+            
+              
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -80,47 +109,7 @@ const WorkSinglePPE = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Commission
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                Deliverables
-                </Title>
-                <Text variant="p">
-                Market research, competitive and comparative analysis, sketches, logo design, stationary design, and  Print Ready Documents.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  
-                </Title>
-                <Text variant="p">
-                  
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                 
-                </Title>
-                <Text variant="p">
-                   
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  
-                </Title>
-                <Text variant="p">
-                   
-                </Text>
-              </Col>
-            </Row>
-          </Container>
-        </Section>
+       
         <Section mt="22%" bg="dark">
           <Container>
             <Row

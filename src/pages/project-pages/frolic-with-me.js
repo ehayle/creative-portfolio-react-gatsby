@@ -72,32 +72,15 @@ const WorkSingle = () => {
               </Col>
              */} 
             </Row>
-          </Container>
-        </div>
-        <Section className="mt-lg-5">
-          <Container>
-            <Row>
-              <Col xs="12" className="mb-5">
-                <img src={imgS1} alt="" className="img-fluid w-100" />
-              </Col>
-              <Col lg="6" className="mb-5 mb-lg-0 pr-lg-4">
-                <img src={imgS3} alt="" className="img-fluid w-100" />
-              </Col>
-              <Col lg="6" className="pl-lg-4">
-                <img src={imgS4} alt="" className="img-fluid w-100" />
-              </Col>
-            </Row>
-          </Container>
-        </Section>
-        <Section className="pt-4 pb-0">
+            <Section className="pt-4 pb-0">
           <Container>
             <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
+              
             </Title>
             <Row>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  Commission
+                Synopsis
                 </Title>
                 <Text variant="p">
                 Ashley, the author, owner, and operator of Frolic With Me trusted me to actualize her freelance writing business by branding the visual identity and developing the Blog powered by WordPress. Brand identity with WordPress UI design and development.
@@ -116,6 +99,24 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </Section>
+          </Container>
+        </div>
+        <Section className="mt-lg-5">
+          <Container>
+            <Row>
+              <Col xs="12" className="mb-5">
+                <img src={imgS1} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col lg="6" className="mb-5 mb-lg-0 pr-lg-4">
+                <img src={imgS3} alt="" className="img-fluid w-100" />
+              </Col>
+              <Col lg="6" className="pl-lg-4">
+                <img src={imgS4} alt="" className="img-fluid w-100" />
+              </Col>
+            </Row>
+          </Container>
+        </Section>
+ 
         <Section mt="22%" bg="dark">
           <Container>
             <Row

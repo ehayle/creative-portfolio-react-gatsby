@@ -66,6 +66,32 @@ const WorkSingleArches = () => {
              */} 
 
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+            
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis 
+                </Title>
+                <Text variant="p">
+                  Inspired by a summer in Moab, Utah. Landscape photography turned minimal lithographic print and sickscreen print.
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  Deliverables
+                </Title>
+                <Text variant="p">
+                Sketches, Digital Graphic Assets, Logo Design, T-Shirt Design, Poster Design, Print Ready Documents.
+                </Text>
+              </Col>
+
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -86,32 +112,7 @@ const WorkSingleArches = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-            Synopsis
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Basics 
-                </Title>
-                <Text variant="p">
-                  Inspired by a summer in Moab, Utah. Landscape photography turned minimal lithographic print and sickscreen print.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Deliverables
-                </Title>
-                <Text variant="p">
-                Sketches, Digital Graphic Assets, Logo Design, T-Shirt Design, Poster Design, Print Ready Documents.
-                </Text>
-              </Col>
 
-            </Row>
-          </Container>
-        </Section>
         <Section mt="22%" bg="dark">
           <Container>
             <Row

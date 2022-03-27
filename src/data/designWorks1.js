@@ -3,7 +3,7 @@
 import imgT18 from "../assets/image/projects/SoulFreq/SF_moc_1_1080x1080.jpg";
 import imgT1 from "../assets/image/projects/PPE World/logo_1_1080.jpg";
 import imgT2 from "../assets/image/projects/Arches/arches_shit-1080.jpg";
-import imgT3 from "../assets/image/projects/GTH/GoToHayle_1-1080.jpg";
+import imgT3 from "../assets/image/projects/GTH/favicon.jpg";
 import imgT4 from "../assets/image/projects/Palm Springs/wide_1-1080.jpg";
 import imgT5 from "../assets/image/projects/Fernweh/window_mock-1080x1080.jpg";
 import imgT6 from "../assets/image/projects/KindBakery/coffeeCups.jpg";

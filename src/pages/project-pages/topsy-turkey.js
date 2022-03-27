@@ -90,7 +90,7 @@ const WorkSingle = () => {
             <Row>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  01. Commission
+                Synopsis
                 </Title>
                 <Text variant="p">
                 Brand identity design consisting of a logo, stationary elements, business cards, flyer, brochure, package label, web design and website development.
@@ -98,15 +98,14 @@ const WorkSingle = () => {
               </Col>
               <Col lg="6" className="mb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  02. Goals
+                  Project Goals
                 </Title>
                 <Text variant="p">
-                A design that does not diverge from the cookware industry style, but also offers a fresh and progressive appearance. 
-                </Text>
+                An identity that has a synonymous look too similar brands in the cookware industry.                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pr-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  03. Problems
+                  Problems
                 </Title>
                 <Text variant="p">
                   Name change from "Topsy Turkey" to "Topsy Turkey Choice Chicken" after branding was completed.
@@ -114,7 +113,7 @@ const WorkSingle = () => {
               </Col>
               <Col lg="6" className="mb-5 pb-5 pl-lg-5">
                 <Title variant="cardBig" className="mb-4">
-                  04. Solutions
+                  Solutions
                 </Title>
                 <Text variant="p">
                   Client decliened rebranding. Instead "Choice Chicken" text was added to the current branding.

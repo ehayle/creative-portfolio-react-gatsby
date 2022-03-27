@@ -71,6 +71,31 @@ const WorkSingleFernweh = () => {
               </Col>
              */} 
             </Row>
+        <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis
+                </Title>
+                <Text variant="p">
+                Fernweh Hat Co. is a western luxury hat and accessories startup. I was commissioned to ideate and build the initial brand identity.
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+              <Title variant="cardBig" className="mb-4">
+                 Deliverables
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, sketches, digital assets, marketing assets, UI Design, UI Development, typography, layout design, brochure design, print-ready documents.
+                </Text>
+              </Col>
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -88,31 +113,7 @@ const WorkSingleFernweh = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Mandate
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  Commission
-                </Title>
-                <Text variant="p">
-                Fernweh Hat Co., a luxury Hat, and Accessories startup commissioned me for Branding, Identity Design, and UI Design and Development.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-              <Title variant="cardBig" className="mb-4">
-                 Deliverables
-                </Title>
-                <Text variant="p">
-                Market research, competitive and comparative analysis, sketches, digital Assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
-                </Text>
-              </Col>
-            </Row>
-          </Container>
-        </Section>
+  
         <Section mt="22%" bg="dark">
           <Container>
             <Row

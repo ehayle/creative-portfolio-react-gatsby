@@ -63,6 +63,32 @@ const WorkSingle = () => {
                   Pen, Illustrator, Photoshop, InDesign, QuarkXPress
                 </Title>
               </Col>
+              <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis
+                </Title>
+                <Text variant="p">
+                ZOWEE Products commissioned me to help grow its brand by designing a series of print and digital marketing campaigns. Work featured in Realtor Magazine. I also created a series of trade show marketing materials.
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  Deliverables
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, sketches, digital assets, banners, flyers, brochures, product photography, photo editing, email marketing, print assets, typography, layout design, print-ready documents.
+                </Text>
+              </Col>
+              
+            </Row>
+          </Container>
+        </Section>
               {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -89,24 +115,7 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Commission
-                </Title>
-                <Text variant="p">
-                ZOWEE Products commissioned to help grow their brand through product photography, trade show banners, marketing material and advertising campaigns in Realtor Magazine.
-                </Text>
-              </Col>
-              
-            </Row>
-          </Container>
-        </Section>
+  
         <Section mt="22%" bg="dark">
           <Container>
             <Row
@@ -129,7 +138,7 @@ const WorkSingle = () => {
               <Text variant="tag" className="mb-1" color="lightShade">
                 Next Project
               </Text>
-              <Link to="/project-pages/madmex">
+              <Link to="/project-pages/kind-bakery">
                 <Button
                   arrowRight
                   className="border-0 bg-transparent shadow-none text-capitalize py-3"
@@ -143,7 +152,7 @@ const WorkSingle = () => {
                     }
                 `}
                 >
-                  MadMex Mexican Grill
+                  KIND Bakery
                 </Button>
               </Link>
             </div>

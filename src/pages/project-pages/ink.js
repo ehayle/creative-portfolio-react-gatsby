@@ -65,6 +65,33 @@ const WorkSingle = () => {
               </Col>
              */} 
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                Synopsis
+                </Title>
+                <Text variant="p">
+                Ink Magazine's fall issue. Model images supplied, design layout for a cover and center spread. 
+                Center spread to be an accordion page.
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  Project Goal
+                </Title>
+                <Text variant="p">
+                Elegance and Culture. The focus of this design was to accentuate the elegancy and cultural impact of the specific tattoo style.
+                </Text>
+              </Col>
+              
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -82,33 +109,7 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Commission
-                </Title>
-                <Text variant="p">
-                Ink Magazine's fall issue. Model images supplied, design layout for a cover and center spread. 
-                Center spread to be either four consecutive pages or an accordion page.
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Project Goal
-                </Title>
-                <Text variant="p">
-                Elegance and Culture. The focus of this design was to accentuate the elegancy and cultural impact of this specific tattoo style.
-                </Text>
-              </Col>
-              
-            </Row>
-          </Container>
-        </Section>
+  
         <Section mt="22%" bg="dark">
           <Container>
             <Row

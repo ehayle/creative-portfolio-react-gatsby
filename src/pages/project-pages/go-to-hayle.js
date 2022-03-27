@@ -7,9 +7,9 @@ import PageWrapper from "../../components/PageWrapper";
 import Contact from "../../sections/common/Contact";
 import imgWorkCover from "../../assets/image/projects/GTH/GoToHayle_1-1440.jpg";
 import imgS3 from "../../assets/image/projects/GTH/GoToHayle_1-1080.jpg";
-import imgS4 from "../../assets/image/projects/GTH/poster_1-1440.jpg";
+import imgS4 from "../../assets/image/projects/GTH/favicon.jpg";
 import imgS5 from "../../assets/image/projects/GTH/GoToHayle_2-1080.jpg";
-import imgS6 from "../../assets/image/projects/GTH/GoToHayle_2-1440.jpg";
+import imgS6 from "../../assets/image/projects/GTH/eh-logo.png";
 import { device } from "../../utils";
 
 const WorkSingleGTH = () => {
@@ -61,6 +61,31 @@ const WorkSingleGTH = () => {
                   Pen<br /> Photoshop<br /> Illustrator
                 </Title>
               </Col>
+              <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  Basics
+                </Title>
+                <Text variant="p">
+                Typographic styling effects for GoToHayle. 
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  Deliverables
+                </Title>
+                <Text variant="p">
+                  Sketches, Digital Graphic Assets, Logo Design, Poster Design, Print Ready Documents.
+                </Text>
+              </Col>
+            </Row>
+          </Container>
+        </Section>
              {/*
               <Col lg="4">
                 <Button arrowRight>Live work</Button>
@@ -77,31 +102,6 @@ const WorkSingleGTH = () => {
               </Col>
               <Col lg="6" className="pl-lg-4">
                 <img src={imgS4} alt="" className="img-fluid w-100" />
-              </Col>
-            </Row>
-          </Container>
-        </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Basics
-                </Title>
-                <Text variant="p">
-                Typographic styling effects for GoToHayle. 
-                </Text>
-              </Col>
-              <Col lg="6" className="mb-5 pb-5 pl-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  02. Deliverables
-                </Title>
-                <Text variant="p">
-                  Sketches, Digital Graphic Assets, Logo Design, Poster Design, Print Ready Documents.
-                </Text>
               </Col>
             </Row>
           </Container>

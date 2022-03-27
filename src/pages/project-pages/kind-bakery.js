@@ -92,7 +92,7 @@ const WorkSingleKindBakery = () => {
                       Deliverables
                       </Title>
                       <Text variant="p">
-                      Market research, competitive and comparative analysis, sketches, digital Assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
+                      Market research, competitive and comparative analysis, sketches, digital assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
                       </Text>
                     </Col>
                   </Row>
