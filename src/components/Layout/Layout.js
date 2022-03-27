@@ -115,6 +115,11 @@ const Layout = ({ children, pageContext }) => {
         <ThemeSwitch />
         <GlobalStyle />
         <Helmet>
+          <meta property="og:url" content="gotohayle.co" />
+          <meta property="og:type" content="" />
+          <meta property="og:title" content="GoToHayle - Digital Design Service , Denver Colorado" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content={imgFavicon} />
           <title>GoToHayle - Digital Design Service , Denver Colorado</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
@@ -142,6 +147,11 @@ const Layout = ({ children, pageContext }) => {
         <ThemeSwitch />
         <GlobalStyle />
         <Helmet>
+          <meta property="og:url" content="gotohayle.co" />
+          <meta property="og:type" content="" />
+          <meta property="og:title" content="GoToHayle - Digital Design Service , Denver Colorado" />
+          <meta property="og:description" content="" />
+          <meta property="og:image" content={imgFavicon} />
           <title>GoToHayle - Digital Design Service , Denver Colorado</title>
           <link rel="icon" type="image/png" href={imgFavicon} />
         </Helmet>
