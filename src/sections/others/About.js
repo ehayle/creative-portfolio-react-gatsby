@@ -129,7 +129,7 @@ const About = ({ hero = true, bg = "dark", ...rest }) => {
                     line-height: 1.5;
                   `}
                 >
-                  My name is Eric. I am a multidisciplinary graphic designer with over eight years of experience in print and digital media. 
+                  My name is Eric. I am an interdisciplinary designer with over eight years of experience in print and digital media, web design, front-end web development, and craft CMS solutions. 
                 </Text>
                 <Text color="light" className="mt-4">
                 I help organizations design, shape, and amplify their brand, product, and service. Whether you intend to create or change your brand image, I am here to serve and distinguish your brand. 
