@@ -33,7 +33,7 @@ const WorkSingleGreenFarms = () => {
                     max-width: 750px;
                   `}
                 >
-                  "Eat clean and green. We're outfitting the urban neighborhood with the most fresh and most green farm to table market place."
+                  "Eat clean and green. We're outfitting the urban neighborhood with the freshest and most green farm-to-table marketplace."
                 </Text>
               </Col>
             </Row>
@@ -66,6 +66,31 @@ const WorkSingleGreenFarms = () => {
               </Col>
              */} 
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+            <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+              <Title variant="cardBig" className="mb-4">
+              Synopsis 
+                </Title>
+                <Text variant="p">
+                GreenFarms is an inner-city farmer's market startup that aims to give locals vendor space to sell their fresh goods. I was commissioned to ideate and build the initial brand identity.
+                </Text>
+              </Col>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+              <Title variant="cardBig" className="mb-4">
+              Deliverables 
+                </Title>
+                <Text variant="p">
+                Market research, competitive and comparative analysis, design ideation, sketches, logo design, branding assets, custom illustrations, package design, label design, and  Print Ready Documents.
+                </Text>
+              </Col>
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -81,25 +106,7 @@ const WorkSingleGreenFarms = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Mandate
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-              <Title variant="cardBig" className="mb-4">
-              Deliverables 
-                </Title>
-                <Text variant="p">
-                Market research, competitive and comparative analysis, design conception, sketches, logo design, graphical branding asset design, package design, label design, and  Print Ready Documents.
-                </Text>
-              </Col>
-         
-              
-            </Row>
-          </Container>
-        </Section>
+
         <Section mt="22%" bg="dark">
           <Container>
             <Row

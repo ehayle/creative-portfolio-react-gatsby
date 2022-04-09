@@ -77,7 +77,7 @@ const WorkSingle = () => {
                 Synopsis 
                 </Title>
                 <Text variant="p">
-                Contractor for a private Vehicle Decals and Wrap shop. Commissioned for ongoing permalancer projects including custom illustrations and graphics for enterprise fleets and independent clients. 
+                Freelance Designer for a private Vehicle Decals and Wrap shop. Ongoing projects include ideation, logo designs, custom illustrations, and graphics for enterprise fleets and independent clients.
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pl-lg-5">

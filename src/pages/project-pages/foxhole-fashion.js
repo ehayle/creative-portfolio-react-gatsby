@@ -66,6 +66,24 @@ const WorkSingle = () => {
               </Col>
              */} 
             </Row>
+            <Section className="pt-4 pb-0">
+          <Container>
+            <Title variant="secSm" className="mb-5 pb-lg-4">
+              
+            </Title>
+            <Row>
+              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
+                <Title variant="cardBig" className="mb-4">
+                  Synopsis 
+                </Title>
+                <Text variant="p">
+                Logo design and platform specific marketing content.
+                </Text>
+              </Col>
+              
+            </Row>
+          </Container>
+        </Section>
           </Container>
         </div>
         <Section className="mt-lg-5">
@@ -81,24 +99,7 @@ const WorkSingle = () => {
             </Row>
           </Container>
         </Section>
-        <Section className="pt-4 pb-0">
-          <Container>
-            <Title variant="secSm" className="mb-5 pb-lg-4">
-              Key Findings
-            </Title>
-            <Row>
-              <Col lg="6" className="mb-5 pb-5 pr-lg-5">
-                <Title variant="cardBig" className="mb-4">
-                  01. Commission 
-                </Title>
-                <Text variant="p">
-                Logo design and platform specific marketing content.
-                </Text>
-              </Col>
-              
-            </Row>
-          </Container>
-        </Section>
+    
         <Section mt="22%" bg="dark">
           <Container>
             <Row

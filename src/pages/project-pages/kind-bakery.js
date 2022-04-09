@@ -84,7 +84,7 @@ const WorkSingleKindBakery = () => {
                         Commission
                       </Title>
                       <Text variant="p">
-                      KIND Bakery trusted me to brand their business to have lasting results and above all industry growth. Develop a branding package that speaks loudly and creates a youthful energy. 
+                      KIND Bakery trusted me to brand their business to have lasting results and industry growth. Develop a modern branding package that speaks loudly with youthful energy.
                       </Text>
                     </Col>
                     <Col lg="6" className="mb-5 pb-5 pr-lg-5">
@@ -92,7 +92,7 @@ const WorkSingleKindBakery = () => {
                       Deliverables
                       </Title>
                       <Text variant="p">
-                      Market research, competitive and comparative analysis, sketches, digital assets, print assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
+                      Market research, competitive and comparative analysis, sketches, logo design, identity assets, print/digital assets, UI Design, UI Development, typography, layout design, brochure design, print ready documents.
                       </Text>
                     </Col>
                   </Row>

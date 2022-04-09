@@ -51,7 +51,8 @@ const WorkSingle = () => {
                 <Title variant="cardBig" className="mt-3">
                   Graphic Designer<br />
                   UI Designer <br />
-                  UI Developer
+                  UI Developer <br />
+                  WordPress Developer
                 </Title>
               </Col>
               <Col lg="4" className="mb-4 mb-lg-0">
@@ -83,7 +84,7 @@ const WorkSingle = () => {
                 Synopsis
                 </Title>
                 <Text variant="p">
-                Ashley, the author, owner, and operator of Frolic With Me trusted me to actualize her freelance writing business by branding the visual identity and developing the Blog powered by WordPress. Brand identity with WordPress UI design and development.
+                Ashley, the author, owner, and operator of Frolic With Me trusted me to ideate and create her freelance writing business by branding the visual identity and developing the Blog powered by WordPress. Brand identity with WordPress UI design and development.
                 </Text>
               </Col>
               <Col lg="6" className="mb-5 pb-5 pr-lg-5">
@@ -92,7 +93,7 @@ const WorkSingle = () => {
                 </Title>
                 <Text variant="p">
                 Produce a visual identity that caters to the bloggers personality, writing style and nature of the content.
-                Market research, competitive and comparative analysis, sketches, digital Assets, print assets, typography, layout design, brochure design, print ready documents.
+                Market research, competitive and comparative analysis, sketches, logo design, branding assets, print/digital assets, typography, UI Design, UI Deveopment, layout design, brochure design, print ready documents.
                 </Text>
               </Col>
               
